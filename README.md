@@ -1,0 +1,2 @@
+# Zinco Digital Marketing Agency WordPress Theme
+ Zinco come with a best WordPress theme for SEO company. All the latest features are using here which help you to make unique website from others. It also helps you to attract your target clients. Zinco is retina ready & fully responsive and through this features you can display your site with a high resolution at any device like notebook, iPhone laptop etc.
