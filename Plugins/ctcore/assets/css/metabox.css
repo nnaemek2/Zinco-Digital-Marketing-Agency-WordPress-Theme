@@ -1,0 +1,121 @@
+.ef-postbox .redux-container .display-group {
+    display: inherit;
+}
+
+.ef-postbox .redux-container-no-sections .redux-main {
+    margin-left: inherit;
+    min-height: 0;
+    border-left: none;
+}
+
+.redux-container-context-side .redux-main {
+    margin-left: 0;
+    border-left: none;
+}
+
+.redux-container-context-side .redux-group-tab {
+    display: inherit;
+}
+
+.redux-container-context-side .form-table {
+    width: 100%;
+}
+
+#poststuff .ef-postbox > .inside > .wrap > h2 {
+    display: none;
+}
+.ef-postbox .inside > .wrap {
+    margin: 0;
+}
+.ef-postbox > .wrap > h2 {
+    display: none;
+}
+
+.redux-container-context-side .redux-group-tab > h2,
+#poststuff .redux-container-context-side h2.redux-section-title {
+    margin: -8px -5px 10px -5px;
+    padding: 12px 10px;
+    background-color: rgba(0,0,0,0.03);
+    border: 1px solid rgba(0,0,0,0.07);
+    border-left: none;
+    border-right: none;
+    font-weight: 700;
+}
+
+.redux-container-context-side .redux-group-tab:first-child > h2,
+#poststuff .redux-container-context-side .redux-group-tab:first-child > h2.redux-section-title {
+    border-top: none;
+}
+
+#poststuff .redux-container-context-normal .redux-group-tab > h2,
+#poststuff .redux-container-context-advanced .redux-group-tab > h2 {
+    display: none;
+}
+
+.redux-container-context-normal .redux-section-desc,
+.redux-container-context-advanced .redux-section-desc {
+    padding: 8px 10px;
+    border-radius: 3px;
+    border: 1px dashed rgba(0,0,0,0.25);
+}
+
+.redux-container-context-side .redux-section-desc {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+@media screen and (max-width: 600px)
+{
+    .ef-postbox .redux-container .form-table,
+    .ef-postbox .redux-container .form-table > thead,
+    .ef-postbox .redux-container .form-table > tbody, 
+    .ef-postbox .redux-container .form-table > tbody > tr > th,
+    .ef-postbox .redux-container .form-table > tbody > tr > td,
+    .ef-postbox .redux-container .form-table > tbody > tr {
+        display: block;
+        box-sizing: border-box;
+    }
+
+    .ef-postbox .redux-container .redux-main {
+        padding: 8px 10px;
+    }
+
+    .ef-postbox .redux-container .redux-section-title,
+    .ef-postbox .redux-container .redux-section-desc {
+        padding: 0 10px;
+    }
+}
+.redux-container-context-side .redux-main {
+    padding: 8px 5px;
+}
+
+.redux-container-context-side .redux-main .redux-field-container {
+    padding: 5px 0;
+}
+.redux-container-context-side .redux_field_th {
+    padding: 5px 0;
+}
+
+.redux-container-context-side .form-table th,
+.redux-container-context-side .form-table td {
+    padding: 10px 5px;
+}
+
+.redux-container-context-side input[type="text"],
+.redux-container-context-side input[type="email"],
+.redux-container-context-side input[type="url"],
+.redux-container-context-side input[type="password"],
+.redux-container-context-side input[type="search"],
+.redux-container-context-side input[type="number"],
+.redux-container-context-side input[type="tel"],
+.redux-container-context-side input[type="range"],
+.redux-container-context-side input[type="date"],
+.redux-container-context-side input[type="month"],
+.redux-container-context-side input[type="week"],
+.redux-container-context-side input[type="time"],
+.redux-container-context-side input[type="datetime"],
+.redux-container-context-side input[type="datetime-local"],
+.redux-container-context-side input[type="color"],
+.redux-container-context-side textarea {
+    width: 100%;
+}

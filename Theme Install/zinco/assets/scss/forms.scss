@@ -1,0 +1,623 @@
+input::-moz-placeholder, textarea::-moz-placeholder {
+    color: inherit;
+    opacity: 1;
+}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+    color: inherit;
+    opacity: 1;
+}
+input::-o-placeholder, textarea::-o-placeholder {
+    color: inherit;
+    opacity: 1;
+}
+input::-ms-placeholder, textarea::-ms-placeholder {
+    color: inherit;
+    opacity: 1;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="number"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea, select, .nice-select {
+    background-color: #fff;
+    border: 1px solid #e9e9e9;
+    color: #5f5f5f;
+    padding: 6px 25px;
+    line-height: normal;
+    font-size: 14px;
+    height: 48px;
+    @include transition(all 200ms linear 0ms);
+    @include box-shadow(none);
+    @include border-radius(0px);
+    width: 100%;
+    outline: none;
+    &:focus {
+        outline: 0;
+        border-color: $primary_color;
+    }
+}
+select {
+    height: 60px;
+}
+textarea {
+    line-height: normal;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    height: 150px;
+}
+.ct-select {
+    form {
+        position: relative;
+        background-color: #fff;
+        @include border-radius(4px);
+    }
+    select {
+        height: 39px;
+        line-height: 37px;
+        font-size: 15px;
+        background-color: transparent;
+        position: relative;
+        z-index: 99;
+          -webkit-appearance:  none; 
+          -khtml-appearance: none;
+          -moz-appearance: none;
+          -ms-appearance: none;
+          -o-appearance: none;
+          appearance: none;
+    }
+    i {
+        position: absolute;
+        right: 14px;
+        top: 50%;
+        @include transform(translate(0px, -50%));
+    }
+}
+.wpcf7-form {
+    .input-filled {
+        position: relative;
+        margin-bottom: 30px;
+        > i {
+            position: absolute;
+            top: 50%;
+            @include transform(translate(0px, -50%));
+            right: 43px;
+            font-size: 15px;
+            color: $primary_color;
+            z-index: 9;
+        }
+        &.wpcf7-textarea-wrap {
+            > i {
+                top: 27px;
+                @include transform(translate(0px, 0%));
+            }
+        }
+    }
+    .wpcf7-form-control-wrap {
+        display: block;
+        .wpcf7-not-valid-tip {
+            display: none;
+        }
+        .wpcf7-not-valid {
+            border-color: #f13c3c !important;
+        }
+    }
+    .wpcf7-response-output {
+        border: medium none;
+        font-style: italic;
+        padding: 0;
+        margin: 0;
+        font-size: 14px;
+        &.wpcf7-mail-sent-ok {
+            color: #398f14;
+        }
+        &.wpcf7-validation-errors {
+            color: #f13c3c;
+        }
+    }
+    .wpcf7-form-control {
+        &:not(.wpcf7-submit) {
+            height: 70px;
+            border: 2px solid #eaedf4;
+            @include border-radius(6px);
+            padding-left: 28px;
+            padding-right: 28px;
+            font-size: 15px;
+            font-weight: 600;
+            &:focus {
+                border-color: $primary_color;
+            }
+        }
+        &.wpcf7-textarea {
+            height: 190px;
+            padding-top: 22px;
+        }
+    }
+    button.wpcf7-submit {
+        line-height: 70px;
+        padding: 0 70px;
+        i {
+            font-size: 12px;
+        }
+    }
+    .ajax-loader {
+        display: none !important;
+    }
+    .wpcf7-menu {
+        display: block;
+        select {
+            background-color: transparent;
+            -webkit-appearance:  none; 
+            -khtml-appearance: none;
+            -moz-appearance: none;
+            -ms-appearance: none;
+            -o-appearance: none;
+            appearance: none;
+            position: relative;
+            z-index: 99;
+            option {
+                padding: 5px;
+            }
+        }
+    }
+}
+.ct-contact-form-default {
+    &.style1 {
+        .nice-select span.current {
+            line-height: 66px;
+        }
+    }
+    &.style2 {
+        .wpcf7-form {
+            .wpcf7-form-control {
+                &:not(.wpcf7-submit) {
+                    @include border-radius(0px);
+                    border-color: #e9e9e9;
+                    font-weight: 400;
+                    @include font-family-heading($heading_default_font);
+                    &:focus {
+                        border-color: $primary_color;
+                    }
+                }
+                &.wpcf7-textarea {
+                    height: 160px;
+                }
+            }
+            button.wpcf7-submit {
+                @include border-radius(0px);
+                &:before {
+                    @include border-radius(0px);
+                }
+            }
+            .wpcf7-response-output {
+                text-align: center;
+            }
+        }
+    }
+}
+
+#ui-datepicker-div {
+    @include border-radius(3px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.24);
+    border: none;
+    padding: 0;
+    .ui-datepicker-header {
+        background-color: $primary_color;
+        border: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        @include border-radius(3px 3px 0 0);
+        font-weight: normal;
+        padding: 0;
+        .ui-datepicker-prev, .ui-datepicker-next {
+            height: 40px;
+            width: 40px;
+            line-height: 40px;
+            text-align: center;
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+            padding: 0;
+            margin: 0;
+            top: 0;
+            span {
+                display: none;
+            }
+            &:before {
+                font-family: "Material-Design-Iconic-Font";
+                font-size: 16px;
+                color: rgba(#fff, 0.4);
+            }
+        }
+        .ui-datepicker-prev {
+            left: 0;
+            &:before {
+                content: "\f2f4";
+            }
+        }
+        .ui-datepicker-next {
+            right: 0;
+            &:before {
+                content: "\f2f6";
+            }
+        }
+    }
+    .ui-datepicker-title {
+        color: #fff;
+        font-size: 16px;
+        line-height: 40px;
+        margin: 0 40px;
+        select {
+            font-size: inherit;
+            color: #fff;
+            line-height: normal;
+            height: inherit;
+            background-color: transparent;
+            -webkit-appearance:  none; 
+            -khtml-appearance: none;
+            -moz-appearance: none;
+            -ms-appearance: none;
+            -o-appearance: none;
+            appearance: none;
+            margin: 0;
+            padding: 0;
+            width: inherit;
+            border: none;
+            option {
+                padding: 0;
+            }
+        }
+    }
+    .ui-datepicker-calendar {
+        background-color: transparent;
+        border: none;
+        margin: 0;
+        thead {
+            background-color: $primary_color;
+        }
+        th {
+            span {
+                text-transform: uppercase;
+                color: #fff;
+            }
+        }
+        td {
+            font-size: 12px;
+            a, span {
+                background-color: transparent;
+                border: medium none;
+                text-align: center;
+                &.ui-state-active, &.ui-state-highlight {
+                    background-color: $primary_color;
+                    color: #fff;
+                    @include border-radius(3px);
+                }
+                &.ui-state-highlight {
+                    background-color: rgba($primary_color, 0.7);
+                }
+            }
+        }
+    }
+}
+
+form .select2-container--default {
+    width: 100% !important;
+    .select2-selection {
+        border: 1px solid #e9e9e9;
+        height: 48px;
+        @include border-radius(0px);
+        .select2-selection__rendered {
+            line-height: 48px;
+            padding-left: 25px;
+            padding-right: 45px;
+            font-size: 14px;
+            color: #5f5f5f;
+        }
+        .select2-selection__arrow {
+            right: 20px;
+            top: 50%;
+            color: #5f5f5f;
+            height: 20px;
+            width: 20px;
+            line-height: 20px;
+            @include transform(translate(0, -50%));
+        }
+        .select2-selection__clear {
+            height: 20px;
+            line-height: 20px;
+            position: absolute;
+            right: 30px;
+            text-align: center;
+            top: 50%;
+            @include transform(translate(0px, -50%));
+            width: 20px;
+            color: #8f8f8f;
+        }
+        .select2-selection__placeholder {
+            color: rgba(#373737, 0.87);
+        }
+    }
+}
+.select2-container.select2-container--open {
+    .select2-dropdown {
+        border-color: #e7e8e9;
+        .select2-search__field {
+            border: 1px solid #e7e8e9;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    }
+    .select2-results {
+        li.select2-results__option--highlighted {
+            background-color: $primary_color;
+        }
+    }
+}
+
+.ct-field-checkbox {
+    position: relative;
+    padding-left: 27px;
+    .icon-check {
+        border: 1px solid #e1e3e3;
+        border-radius: 1px;
+        display: block;
+        height: 17px;
+        width: 17px;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        @include transform(translate(0,-50%));
+        z-index: 1;
+        &:before {
+            content: "\f00c";
+            font-size: 13px;
+            color: $primary_color;
+            position: absolute;
+            top: -4px;
+            left: 1px;
+            font-family: FontAwesome;
+            opacity: 0;
+        }
+    }
+    input {
+        bottom: 0;
+        height: 100%;
+        left: 0;
+        position: absolute;
+        width: 100%;
+        opacity: 0;
+        cursor: pointer;
+        z-index: 3;
+        &:checked + .icon-check:before {
+            opacity: 1;
+        }
+    }
+}
+.nice-select {
+    padding-top: 0;
+    padding-bottom: 0;
+    position: relative;
+    padding-right: 40px;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+    white-space: nowrap;
+    &:after {
+        content: "\f2f9";
+        font-family: "Material-Design-Iconic-Font";
+        font-size: 20px;
+        color: #c9cce4;
+        position: absolute;
+        right: 28px;
+        top: 50%;
+        @include transform(translate(0px, -50%));
+    }
+    span.current {
+        display: block;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        line-height: 48px;
+    }
+    .option {
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+}
+.nice-select.open .list {
+    width: 100%;
+    max-height: 250px;
+    overflow: auto;
+    opacity: 1;
+    pointer-events: auto;
+    -webkit-transform: scale(1) translateY(0);
+        -ms-transform: scale(1) translateY(0);
+            transform: scale(1) translateY(0);
+}
+.nice-select.disabled {
+    border-color: #ededed;
+    color: #999;
+    pointer-events: none;
+}
+.nice-select.disabled:after {
+    border-color: #cccccc;
+}
+.nice-select.wide {
+    width: 100%;
+}
+.nice-select.wide .list {
+    left: 0 !important;
+    right: 0 !important;
+}
+.nice-select.right {
+    float: right;
+}
+.nice-select.right .list {
+    left: auto;
+    right: 0;
+}
+.nice-select.small {
+    font-size: 12px;
+    height: 36px;
+    line-height: 34px;
+}
+.nice-select.small:after {
+    height: 4px;
+    width: 4px;
+}
+.nice-select.small .option {
+    line-height: 34px;
+    min-height: 34px;
+}
+.nice-select .list {
+    margin-top: 4px !important;
+    margin-left: -2px !important;
+    margin-right: -2px !important;
+    border: 2px solid #e9e9e9;
+    background-color: #fff;
+    padding: 12px 0px;
+    box-sizing: border-box;
+    opacity: 0;
+    overflow: hidden;
+    pointer-events: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    -webkit-transform-origin: 50% 0;
+        -ms-transform-origin: 50% 0;
+            transform-origin: 50% 0;
+    -webkit-transform: scale(0.75) translateY(-21px);
+        -ms-transform: scale(0.75) translateY(-21px);
+            transform: scale(0.75) translateY(-21px);
+    -webkit-transition: all 0.2s cubic-bezier(0.5, 0, 0, 1.25), opacity 0.15s ease-out;
+    transition: all 0.2s cubic-bezier(0.5, 0, 0, 1.25), opacity 0.15s ease-out;
+    z-index: 9;
+    color: #a7a7c1;
+    font-size: 14px;
+    width: calc(100% + 4px) !important;
+    width: -webkit-calc(100% + 4px) !important;
+    .selected {
+        color: $primary_color;
+    }
+}
+.nice-select .list:hover .option:not(:hover) {
+    background-color: transparent !important;
+}
+.nice-select .option {
+    cursor: pointer;
+    line-height: normal;
+    list-style: none;
+    outline: none;
+    padding: 6px 22px;
+    text-align: left;
+    @include transition(all 0.2s);
+    margin-bottom: 0 !important;
+    &:hover {
+        color: $primary_color;
+    }
+}
+.nice-select .option.disabled {
+    background-color: transparent;
+    color: #999;
+    cursor: default;
+}
+.no-csspointerevents .nice-select .list {
+    display: none;
+}
+.no-csspointerevents .nice-select.open .list {
+    display: block;
+}
+body .booked-calendar-wrap .booked-appt-list .timeslot .timeslot-title {
+    color: $secondary_color;
+}
+body #content #booked-profile-page .booked-profile-header,
+body #content table.booked-calendar th {
+    background-color: $primary_color !important;
+}
+body #content table.booked-calendar tr:not(.days) th {
+    background-color: rgba($primary_color, 1) !important;
+    border-color: rgba($primary_color, 1) !important;
+}
+body #booked-profile-page input[type="submit"].button-primary:hover, 
+body table.booked-calendar input[type="submit"].button-primary:hover, 
+body .booked-list-view button.button:hover, 
+body .booked-list-view input[type="submit"].button-primary:hover, 
+body .booked-modal input[type="submit"].button-primary:hover,
+body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button:hover,
+body #booked-profile-page .appt-block .google-cal-button > a:hover {
+    background-color: $secondary_color !important;
+    border-color: $secondary_color !important;
+}
+#ui-datepicker-div.booked_custom_date_picker table.ui-datepicker-calendar tbody td.ui-datepicker-today a, 
+#ui-datepicker-div.booked_custom_date_picker table.ui-datepicker-calendar tbody td.ui-datepicker-today a:hover, 
+body #booked-profile-page input[type="submit"].button-primary, 
+body table.booked-calendar input[type="submit"].button-primary, 
+body .booked-list-view button.button, 
+body .booked-list-view input[type="submit"].button-primary, 
+body .booked-list-view button.button, 
+body .booked-list-view input[type="submit"].button-primary, 
+body .booked-modal input[type="submit"].button-primary, 
+body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button, 
+body #booked-profile-page .booked-profile-appt-list .appt-block.approved .status-block, 
+body #booked-profile-page .appt-block .google-cal-button > a, 
+body .booked-modal p.booked-title-bar, 
+body table.booked-calendar td:hover .date span, 
+body .booked-list-view a.booked_list_date_picker_trigger.booked-dp-active, 
+body .booked-list-view a.booked_list_date_picker_trigger.booked-dp-active:hover, 
+.booked-ms-modal .booked-book-appt {
+    background-color: $primary_color !important;
+    border-color: $primary_color !important;
+}
+body #content table.booked-calendar td.today .date span {
+    border-color: $secondary_color !important;
+}
+body #content table.booked-calendar td.today:hover .date span {
+    background-color: $secondary_color !important;
+}
+body #content table.booked-calendar td.active:hover .date span {
+    color: #fff !important;
+}
+
+/* Date Time Picker */
+body .xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_today {
+    color: $primary_color !important;
+}
+body .xdsoft_datetimepicker .xdsoft_label > .xdsoft_select > div > .xdsoft_option:hover,
+body .xdsoft_datetimepicker .xdsoft_calendar td:hover,
+body .xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box >div >div:hover {
+    background: $secondary_color !important;
+    @include box-shadow(none !important);
+    color: #fff !important;
+}
+body .xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_today,
+body .xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_default,
+body .xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_current,
+body .xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_current.xdsoft_disabled:hover,
+body .xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box>div>div.xdsoft_current.xdsoft_disabled:hover
+body .xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box >div >div.xdsoft_current
+body .xdsoft_datetimepicker .xdsoft_label > .xdsoft_select > div > .xdsoft_option.xdsoft_current,
+body .xdsoft_timepicker .xdsoft_time_variant .xdsoft_current {
+    background-color: $primary_color !important;
+    @include box-shadow(none !important);
+    color: #fff !important;
+}
+body .xdsoft_datetimepicker {
+    font-family: inherit;
+}
+body .xdsoft_datetimepicker .blue-gradient-button {
+    @include font-family-heading($heading_default_font);
+}

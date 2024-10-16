@@ -1,0 +1,227 @@
+/**
+ * Theme Option
+ */
+ .redux-container .redux-group-tab .ui-checkboxradio-icon {
+	display: none !important;
+}
+.redux-main .wp-picker-container {
+    display: inline-block;
+}
+.redux-main .color-transparency-check {
+    display: inline-block;
+    margin: 6px 0 !important;
+}
+.redux-sidebar .redux-group-menu li.active > a, .redux-sidebar .redux-group-menu li:hover > a {
+    background-color: #ff7200 !important;
+    color: #fff !important;
+}
+.wp-admin.admin-color-fresh .redux-container-switch .cb-enable.selected, 
+.wp-admin.admin-color-fresh .redux-field-container .ui-buttonset .ui-state-active, 
+.wp-admin.wp-customizer .redux-container-switch .cb-enable.selected, 
+.wp-admin.wp-customizer .redux-field-container .ui-buttonset .ui-state-active {
+	background-color: #ff7200 !important;
+	background-image: none !important;
+	border-color: #ff7200 !important;
+	box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+	-ms-box-shadow: none !important;
+}
+
+.redux-container-image_select ul.redux-image-select {
+	margin: 0 -15px !important;
+}
+.redux-container-image_select ul.redux-image-select li {
+	padding: 0 15px !important;
+	margin: 0 0 30px !important;
+}
+#ct_theme_options-all_careers_page ul.redux-image-select,
+#ct_theme_options-single_post_layout ul.redux-image-select,
+#ct_theme_options-singe_service_layout ul.redux-image-select,
+#ct_theme_options-singe_portfolio_layout ul.redux-image-select {
+	display: flex;
+	display: -webkit-flex;
+    flex-wrap: wrap;
+}
+
+.wp-admin.admin-color-fresh .redux-container-image_select .redux-image-select-selected img, 
+.wp-admin.wp-customizer .redux-container-image_select .redux-image-select-selected img {
+	border-color: #ff7200 !important;
+	box-shadow: 0 1px 6px #ff7200 !important;
+	-webkit-box-shadow: 0 1px 6px #ff7200 !important;
+	-ms-box-shadow: 0 1px 6px #ff7200 !important;
+}
+.redux-container-color .wp-picker-container {
+	display: inline-block;
+}
+.redux-container-color .color-transparency-check {
+	display: inline-block;
+    margin: 5px 0;
+}
+.term-php .form-field {
+	display: table-row !important;
+}
+.redux-container .redux-container-context-side .redux-main {
+	padding: 20px !important;
+}
+.redux-container .redux-container-media img {
+	max-width: 200px !important;
+	margin-bottom: 10px !important;
+}
+.vc_edit_form_elements .vc_column {
+	padding-top: 30px !important;
+}
+.panel-primary > .panel-heading {
+	background-image: none !important;
+	background-color: #ff7200 !important;
+}
+.description.field-desc {
+	font-style: italic;
+    opacity: 0.4;
+}
+.post-type-post .redux-container .redux-main {
+	min-height: auto;
+}
+.post-type-post .redux-container .redux-sidebar {
+	display: none;
+}
+.wp-admin [id*="mymetabox_revslider_"], .wp-admin [id^="mymetabox_revslider_"] {
+	display: none;
+}
+
+.ct-dashboard-item i.dashicon {
+	background-color: #ff7200;
+}
+.ct-dashboard-item a {
+	background-color: #ff7200;
+}
+.ct-dashboard-item a:hover, .ct-dashboard-item a:focus {
+	background-color: #a28b83;
+}
+.ct-dashboard-ticket a {
+	border-color: #ff7200;
+}
+.ct-dashboard-ticket a:hover, .ct-dashboard-ticket a:focus {
+	color: #ff7200;
+}
+.vc_el-container #user-press .vc_element-icon, .vc_el-container [id*='ct_'] .vc_element-icon, .vc_el-container [id^='ct_'] .vc_element-icon, .ct-icon-element .vc_element-icon {
+	background-image: url('../images/el-icon.png');
+	background-color: transparent;
+	background-position: center;
+}
+
+.wp-core-ui .ct-ie-dashboard .button {
+	background-color: #ff7200;
+	border-color: #ff7200;
+	box-shadow: 0 1px 0 #ff7200;
+	-webkit-box-shadow: 0 1px 0 #ff7200;
+	-ms-box-shadow: 0 1px 0 #ff7200;
+}
+.wp-core-ui .ct-ie-dashboard .button:hover, .wp-core-ui .ct-ie-dashboard .button:focus {
+	background-color: #a28b83;
+	border-color: #a28b83;
+}
+.video-tutorial .dash-deactivate {
+	display: none;
+}
+.ct-ie-meta {
+	text-align: center;
+}
+.ct-import-contains .ct-ie-image::before {
+	background-color: rgba(0, 0, 0, 0.65);
+}
+.cms-dashboard-item i.dashicon,
+.cms-dashboard-item a {
+	background-color: #ff7200;
+}
+.cms-dashboard-item a:hover, 
+.cms-dashboard-item a:focus, 
+.cms-dashboard-item a:active {
+	opacity: 0.8;
+	background-color: #ff7200;
+}
+.cms-dashboard-ticket a,
+.cms-dashboard-ticket a:hover,
+.cms-dashboard-ticket a:focus {
+	border-color: #ff7200;
+}
+.cms-dashboard-ticket a:hover,
+.cms-dashboard-ticket a:focus  {
+	color: #ff7200;
+}
+.wp-core-ui .ct-ie-dashboard .button:hover, .wp-core-ui .ct-ie-dashboard .button:focus {
+	background-color: #ff7200;
+	border-color: #ff7200;
+}
+.zinco_page_theme-options .error.redux-message, .zinco_page_theme-options .updated.redux-notice,
+.zinco-child_page_theme-options .error.redux-message, .zinco-child_page_theme-options .updated.redux-notice,
+.gwp-live-feed-contents.notice.gwp-notice-pro, .ct-delete-demo.button {
+	display: none !important;
+}
+
+.vc-icons-selector .fip-icons-container .fip-box {
+	width: 120px !important;
+}
+.vc-icons-selector .fip-icons-container .fip-box i {
+	font-size: 28px !important;
+}
+.vc_edit_form_elements .vc_ui-flex-row .vc_col-sm-1\/5 {
+	width: 20%;
+}
+.vc_edit-form-tab.vc_row .ct-col-5 {
+	padding-left: 15px;
+	padding-right: 15px;
+	width: 20%;
+	box-sizing: border-box;
+}
+.vc_fields .vc_param_group-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+}
+.ct-wg-image-wrap {
+	margin-top: 15px;
+}
+.ct-wg-image-wrap label {
+	margin-bottom: 3px;
+	display: block;
+}
+.ct-wg-show-image img {
+	max-width: 110px;
+}
+
+#revslider-update .update-message {
+	display: none
+}
+/** Gutenberg CSS **/
+.edit-post-layout .editor-styles-wrapper {
+	font-family: 'Open Sans', sans-serif !important;
+	font-size: 16px;
+	line-height: 1.875;
+	color: #5f5f5f;
+	-webkit-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.edit-post-layout .block-editor-block-list__block[data-type="core/paragraph"] p {
+	line-height: 1.6;
+}
+.edit-post-layout .editor-styles-wrapper p {
+	margin: 0 0 15px;
+}
+.edit-post-layout .editor-styles-wrapper [data-block] {
+	margin: 0;
+}
+.edit-post-layout .wp-block-cover__inner-container .editor-rich-text__editable.wp-block-paragraph {
+	font-size: 24px !important;
+	line-height: 1.25 !important;
+	color: rgba(255, 255, 255, 0.87);
+	font-weight: normal;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.edit-post-layout .block-library-cover__resize-container {
+	margin-bottom: 45px;
+}
+.edit-post-layout .block-editor-block-list__layout .block-editor-block-list__block {
+	padding-left: 0;
+	padding-right: 0;
+}

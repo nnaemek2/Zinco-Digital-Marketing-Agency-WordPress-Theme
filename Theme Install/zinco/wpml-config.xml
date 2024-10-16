@@ -1,0 +1,13 @@
+<wpml-config>
+    <admin-texts>
+        <key name="zinco_get_opt">
+            <key name="h_btn_text" />
+            <key name="search_field_placeholder" />
+            <key name="footer_content" />
+            <key name="shop_title" />
+            <key name="shop_subtitle" />
+            <key name="content_404" />
+            <key name="title_404" />
+        </key>
+    </admin-texts>
+</wpml-config>

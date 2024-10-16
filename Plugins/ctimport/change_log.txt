@@ -1,0 +1,10 @@
+-----------------------------------------------------------------------------------------
+Version 1.0.2 - July 28, 2023
+-----------------------------------------------------------------------------------------
+
+- Fixed PHP 8.x warning
+
+ctimport\ctimport.php 
+ctimport\templates\import-page.php on line 15
+ctimport\templates\import-page.php on line 17
+ctimport\includes\api\parsers.php on line 64, 68

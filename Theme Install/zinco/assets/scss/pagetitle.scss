@@ -1,0 +1,71 @@
+// Page Title
+//--------------------------------------------------
+#pagetitle {
+  padding: 258px 0 182px;
+  background-color: $primary_color;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  text-align: center;
+  background-size: cover;
+  @media #{$max-md} {
+    padding: 80px 0;
+  }
+  .container {
+    position: relative;
+    z-index: 99;
+    margin: auto;
+  }
+  h1.page-title {
+  	font-size: 65px;
+    letter-spacing: -0.03em;
+    margin-bottom: 0;
+    color: #fff;
+    @media #{$max-md} {
+      font-size: 48px !important;
+    }
+    @media #{$max-sm} {
+      font-size: 36px !important;
+    }
+    @media #{$max-xs} {
+      font-size: 30px !important;
+    }
+  }
+  .page-subtitle {
+    max-width: 480px;
+    margin: 14px auto 0 auto;
+  }
+  .ct-breadcrumb {
+    margin: 13px 0 0;
+    list-style: none;
+    li {
+      color: #fff;
+      display: inline-block;
+      margin-right: 11px;
+      font-size: 24px;
+      letter-spacing: -0.03em;
+      @media #{$max-md} {
+        font-size: 18px;
+      }
+      @media #{$max-sm} {
+        font-size: 16px;
+      }
+      &:before {
+        content: "/";
+        margin-right: 13px;
+        color: #fff;
+      }
+      a {
+        color: #fff;
+        &:hover {
+          color: inherit;
+        }
+      }
+      &:first-child:before {
+        display: none;
+      }
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}

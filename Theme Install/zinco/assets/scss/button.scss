@@ -1,0 +1,250 @@
+/* CMS Button */
+.btn,
+button,
+.button,
+input[type="submit"] {
+  background-color: $primary_color;
+  border: 2px solid $primary_color;
+  color: #fff;
+  font-size: 15px;
+  padding: 0 40px;
+  line-height: 51px;
+  @include transition(all 300ms linear 0ms);
+  @include border-radius(55px);
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  font-weight: 600;
+  outline: none;
+  white-space: nowrap;
+  text-transform: capitalize;
+  letter-spacing: -0.03em;
+  &:hover, &:focus, &:active {
+    @include box-shadow(none);
+    outline: none;
+    text-decoration: none;
+    color: $primary_color;
+    background-color: transparent;
+  }
+}
+.btn {
+  i {
+    margin-left: 8px;
+  }
+  &.size-lg {
+    line-height: 50px;
+    padding: 0 32px;
+  }
+  &.btn-default, &.btn-secondary {
+    overflow: visible;
+    background-color: transparent;
+    border: none;
+    line-height: 55px;
+    &:before, &:after {
+      content: '';
+      z-index: -1;
+      @include border-radius(inherit);
+      pointer-events: none;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      @include transition(transform 0.3s, opacity 0.3s);
+      -webkit-backface-visibility: hidden;
+      -webkit-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+      transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+    }
+    &:before {
+      border: 2px solid $primary_color;
+      opacity: 0;
+      @include transform(scale3d(1.2, 1.2, 1));
+    }
+    &:after {
+      background-color: $primary_color;
+    }
+    &:hover, &:focus, &:active {
+      color: $primary_color;
+      &:before {
+        opacity: 1;
+        @include transform(scale3d(1, 1, 1));
+      }
+      &:after {
+        opacity: 0;
+        @include transform(scale3d(0.8, 0.8, 1));
+      }
+    }
+    &.btn-modern-white {
+      color: $primary_color;
+      &:before {
+        border-color: #fff;
+      }
+      &:after {
+        background-color: #fff;
+      }
+      &:hover, &:focus, &:active {
+        color: #fff;
+      }
+    }
+  }
+  &.btn-secondary {
+    &:before {
+      border-color: $secondary_color;
+    }
+    &:after {
+      background-color: $secondary_color;
+    }
+    &:hover, &:focus, &:active {
+      color: $secondary_color;
+    }
+  }
+  &.btn-aylen {
+    background-color: #ebf0ff;
+    color: #42495b;
+    border: none;
+    line-height: 55px;
+    &:before, &:after {
+      content: '';
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      bottom: 100%;
+      left: 0;
+      z-index: -1;
+      @include transition(transform 0.3s);
+      transition-timing-function: ease;
+      -webkit-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+      transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+    }
+    &:before {
+      background: rgba($primary_color, 0.45);
+    }
+    &:after {
+      background: $primary_color;
+    }
+    &:hover, &:focus, &:active {
+      color: #fff;
+      &:before, &:after {
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0);
+      }
+      &:after {
+        -webkit-transition-delay: 0.175s;
+        transition-delay: 0.175s;
+      }
+    }
+  }
+  &.btn-moema {
+    color: $color_dark2;
+    background-color: transparent;
+    border: 2px solid #e2e6ee;
+    line-height: 42px;
+    padding-left: 28px;
+    padding-right: 28px;
+    overflow: visible;
+    &:before {
+      content: '';
+      position: absolute;
+      top: -20px;
+      left: -20px;
+      bottom: -20px;
+      right: -20px;
+      background: inherit;
+      @include border-radius(46px);
+      z-index: -1;
+      opacity: 0.4;
+      @include transform(scale3d(0.8, 0.5, 1));
+    }
+    &:hover, &:focus, &:active {
+      border-color: $primary_color;
+      @include transition(background-color 0.1s 0.3s, color 0.1s 0.3s);
+      color: #fff;
+      background-color: $primary_color;
+      -o-animation: anim-moema-1 0.3s forwards;
+      -ms-animation: anim-moema-1 0.3s forwards;
+      -webkit-animation: anim-moema-1 0.3s forwards;
+      animation: anim-moema-1 0.3s forwards;
+      &:before {
+        -o-animation: anim-moema-2 0.3s 0.3s forwards;
+        -ms-animation: anim-moema-2 0.3s 0.3s forwards;
+        -webkit-animation: anim-moema-2 0.3s 0.3s forwards;
+        animation: anim-moema-2 0.3s 0.3s forwards;
+      }
+    }
+  }
+  &.btn-outline-white {
+    background-color: transparent;
+    color: #fff;
+    border-color: #fff;
+    border: none;
+    @include box-shadow(0 0 0 2px #fff inset);
+    line-height: 55px;
+    &:before, &:after {
+      content: '';
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      bottom: 100%;
+      left: 0;
+      z-index: -1;
+      @include transition(transform 0.3s);
+      transition-timing-function: ease;
+      -webkit-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+      transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+    }
+    &:before {
+      background: rgba($primary_color, 0.45);
+    }
+    &:after {
+      background: $primary_color;
+    }
+    &:hover, &:focus, &:active {
+      color: #fff;
+      border-color: $primary_color;
+      &:before, &:after {
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0);
+      }
+      &:after {
+        -webkit-transition-delay: 0.175s;
+        transition-delay: 0.175s;
+      }
+    }
+    &.hover-light:hover {
+      color: #42495b;
+      &:before {
+        background: rgba(#fff, 0.45);
+      }
+      &:after {
+        background: #fff;
+      }
+    }
+  }
+}
+.btn-align-center {
+  text-align: center;
+}
+.btn-align-right {
+  text-align: right;
+}
+.btn-group .btn + .btn {
+  margin-left: 30px;
+}
+.btn-block {
+  display: block;
+}
+.ct-button-wrapper i {
+  margin-left: 4px;
+}
+.ct-btn-group {
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.btn-shadow .btn {
+  @include box-shadow(0 16px 32px rgba($primary_color, 0.3));
+}

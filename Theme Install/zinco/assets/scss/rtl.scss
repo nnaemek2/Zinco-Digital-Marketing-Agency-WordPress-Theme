@@ -1,0 +1,365 @@
+/*
+Theme Name: Fincore
+Adding support for languages written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+//codex.wordpress.org/Right-to-Left_Language_Support
+*/
+
+body.rtl {
+    direction: rtl;
+    unicode-bidi: embed;
+    text-align: right;
+    .vc_col-lg-1, .vc_col-lg-10, .vc_col-lg-11, .vc_col-lg-12, .vc_col-lg-2, .vc_col-lg-3, .vc_col-lg-4, .vc_col-lg-5, .vc_col-lg-6, .vc_col-lg-7, .vc_col-lg-8, .vc_col-lg-9, .vc_col-md-1, .vc_col-md-10, .vc_col-md-11, .vc_col-md-12, .vc_col-md-2, .vc_col-md-3, .vc_col-md-4, .vc_col-md-5, .vc_col-md-6, .vc_col-md-7, .vc_col-md-8, .vc_col-md-9, .vc_col-sm-1, .vc_col-sm-10, .vc_col-sm-11, .vc_col-sm-12, .vc_col-sm-2, .vc_col-sm-3, .vc_col-sm-4, .vc_col-sm-5, .vc_col-sm-6, .vc_col-sm-7, .vc_col-sm-8, .vc_col-sm-9, .vc_col-xs-1, .vc_col-xs-10, .vc_col-xs-11, .vc_col-xs-12, .vc_col-xs-2, .vc_col-xs-3, .vc_col-xs-4, .vc_col-xs-5, .vc_col-xs-6, .vc_col-xs-7, .vc_col-xs-8, .vc_col-xs-9 {
+		float: right;
+	}
+	.text-left, .align-left {
+		text-align: right;
+	}
+	.owl-dots {
+		.owl-dot {
+			margin: 0 8px;
+		}
+	}
+	.owl-nav {
+		direction: ltr;
+	}
+	input[type="text"],
+	input[type="email"],
+	input[type="url"],
+	input[type="password"],
+	input[type="search"],
+	input[type="tel"],
+	input[type="number"],
+	input[type="range"],
+	input[type="date"],
+	input[type="month"],
+	input[type="week"],
+	input[type="time"],
+	input[type="datetime"],
+	input[type="datetime-local"],
+	input[type="color"],
+	textarea, select, .nice-select {
+		text-align: right;
+	}
+	.nice-select:after {
+		right: auto;
+		left: 18px;
+	}
+	.nice-select {
+		padding-left: 40px;
+		padding-right: 18px;
+	}
+	.nice-select .option {
+		text-align: right;
+	}
+	#pagetitle h1.page-title {
+		margin-right: 0;
+		margin-left: 30px;
+	}
+	.wpcf7-form .input-filled > i {
+		right: auto;
+		left: 38px;
+	}
+	.wpcf7-form .input-filled > i + .wpcf7-form-control-wrap .wpcf7-form-control:not(.wpcf7-submit) {
+		padding-right: 40px;
+		padding-left: 70px;
+	}
+	#pagetitle .page-title-search .search-field {
+		padding-right: 30px;
+		padding-left: 86px;
+	}
+	#pagetitle .page-title-search .search-submit {
+		right: auto;
+		left: 0;
+	}
+}
+.rtl {
+	@media #{$min-lg} { 
+	    .text-left-lg {
+	        text-align: right !important;
+	    }   
+	    .text-right-lg {
+	        text-align: left !important;
+	    }   
+	}
+	@media #{$max-lg} {
+	    .align-left-md {
+	        text-align: right;
+	    }
+	    .align-right-md {
+	        text-align: left;
+	    }
+	}
+	@media #{$max-md} {
+	    .text-left-md {
+	        text-align: right !important;
+	    }
+	    .text-right-md {
+	        text-align: left !important;
+	    }
+	    .align-left-sm {
+	        text-align: right;
+	    }
+	    .align-right-sm {
+	        text-align: left;
+	    }
+	}
+	@media #{$max-sm} {
+	    .text-left-sm {
+	        text-align: right !important;
+	    }
+	    .text-right-sm {
+	        text-align: left !important;
+	    }
+	    .align-left-xs {
+	        text-align: right;
+	    }
+	    .align-right-xs {
+	        text-align: left;
+	    }
+	}
+
+	/* Header */
+	@media screen and (min-width: 992px) {
+		#header-wrap {
+			.primary-menu {
+				> li {
+					float: right;
+				}
+				.sub-menu {
+					left: auto;
+					right: 0;
+				}
+			}
+		    .site-menu-right {
+		    	margin-left: 0;
+		    	margin-right: 14px;
+		    	.menu-right-item + .menu-right-item {
+		    		margin-left: 0;
+		    		margin-right: 9px;
+		    	}
+		    }
+		    .primary-menu {
+		    	> li {
+			    	&.menu-item-has-children > a::after {
+				    	margin-left: 0;
+				    	margin-right: 5px;
+				    }
+				}
+				.sub-menu li {
+					a:before {
+						left: auto;
+						right: 0;
+					}
+					> a:hover,
+	                &.current_page_item > a,
+	                &.current-menu-item > a,
+	                &.current_page_ancestor > a,
+	                &.current-menu-ancestor > a,
+	                &.current-menu-parent > a {
+	                    padding-left: 0;
+	                    padding-right: 20px;
+	                }
+				}
+		    }
+	    }
+	}
+	@media screen and (max-width: 991px) {
+		#header-wrap {
+	    	.site-branding {
+		        text-align: right;
+		        .logo-dark {
+		        	left: auto;
+					right: 0;
+		        }
+		    }
+		    .primary-menu li {
+		    	text-align: right;
+		    }
+		    .primary-menu .sub-menu {
+		    	left: auto;
+		    	right: 0;
+		    }
+		    .menu-mobile-close {
+		    	right: auto;
+		    	left: 0;
+		    }
+		    #main-menu-mobile {
+		    	right: auto;
+		    	left: 15px;
+		    }
+		    .main-menu-toggle {
+		    	right: auto;
+		    	left: 12px;
+		    }
+		    .header-navigation {
+		    	right: 0;
+		    	.main-navigation {
+		    		@include transform(translateX(100%));
+		    		left: auto;
+		    	}
+		    	&.navigation-open .main-navigation {
+		    		@include transform(translateX(0%));
+		    	}
+		    }
+		    .header-mobile-search .search-submit {
+		    	right: auto;
+		    	left: 0px;
+		    }
+	    }
+	}
+	
+	/* Shortcode */
+	.ct-short-text.layout1 .short-text-title {
+		padding-right: 0;
+		padding-left: 32px;
+		@media #{$max-sm} {
+			padding-left: 0;
+		}
+	}
+	.ct-short-text.layout1 .short-text-description {
+		padding-left: 0;
+		padding-right: 32px;
+		@media #{$max-sm} {
+			padding-right: 0;
+		}
+	}
+	.ct-short-text.layout1 .short-text-title::before {
+		right: auto;
+		left: 0;
+		@media #{$max-sm} {
+			left: 0;
+			right: 0;
+			margin: auto;
+		}
+	}
+	.ct-list.layout1 li i {
+		margin-left: 9px;
+		margin-right: 0px;
+	}
+	.ct-fancybox-layout2 .ct-fancybox-icon {
+		margin-right: 0;
+		margin-left: 37px;
+	}
+	.ct-contact-info .ct-contact-info-icon i {
+		margin-right: 0;
+		margin-left: 30px;
+	}
+	.ct-video-wrapper.video-intro-style3 .ct-video-inner {
+		margin-right: 0;
+		margin-left: 30px;
+	}
+
+	/* Footer */
+	.site-footer .top-footer ul.menu li {
+		&:hover > a,
+        &.current_page_item > a,
+        &.current-menu-item > a,
+        &.current_page_ancestor > a,
+        &.current-menu-ancestor > a {
+            padding-left: 0;
+            padding-right: 26px;
+        }
+	}
+	.site-footer .top-footer ul.menu li a::before {
+		left: auto;
+		right: 0;
+		content: "\f177";
+	}
+
+	/* Post */
+	.entry-meta li, .item-meta li {
+		padding: 0 0 0 20px;
+	}
+	.entry-meta li i, .item-meta li i {
+		margin-right: 0;
+		margin-left: 10px;
+	}
+	.ct-social li:last-child {
+		margin-right: 10px;
+	}
+	#content .widget_categories ul li a::before, #content .widget_nav_menu ul li a::before, #content .widget_pages ul li a::before, #content .widget_archive ul li a::before, #content .widget_meta ul li a::before, #content .widget_recent_entries ul li a::before {
+		content: "\f177";
+	}
+	.widget_ct_recent_posts .entry-media {
+		margin-right: 0;
+		margin-left: 20px;
+	}
+	.widget_ct_recent_posts .item-time i {
+		padding-left: 8px;
+		padding-right: 0px;
+	}
+	.widget_search .search-form .search-field {
+		padding-left: 70px;
+		padding-right: 30px;
+	}
+	.widget_search .search-form .search-submit {
+		right: auto;
+		left: 0;
+	}
+	#pagetitle .ct-breadcrumb li::before {
+		margin-right: 0;
+		margin-left: 13px;
+	}
+	&.single-post .content-area .entry-content-bottom .entry-tags {
+		margin-right: 0;
+		margin-left: 30px;
+	}
+	&.single-post .content-area .entry-content-bottom .entry-tags a {
+		margin-right: 0;
+		margin-left: 16px;
+	}
+	&.single-post .content-area .entry-content-bottom .entry-social a + a {
+		margin-left: 0;
+		margin-right: 25px;
+	}
+	.comment-inner img.avatar {
+		margin-right: 0;
+		margin-left: 30px;
+	}
+	.comment-reply {
+		right: auto;
+		left: 20px;
+	}
+	&.single-portfolio .entry-footer .entry-social a + a {
+		margin-left: 0;
+		margin-right: 6px;
+	}
+	&.single-portfolio .post-type-nav .nav-link-next .nav-inner {
+		text-align: left;
+		.nav-icon {
+			opacity: 0;
+		}
+		&:hover {
+			padding-right: 0;
+		}
+	}
+	&.single-portfolio .post-type-nav .nav-link-prev .nav-inner {
+		.nav-icon {
+			opacity: 0;
+		}
+		&:hover {
+			padding-left: 0;
+		}
+	}
+	&.woocommerce .woocommerce-product-inner .woocommerce-product-holder .product-holder-left {
+		margin-right: 0;
+		margin-left: 30px;
+	}
+	&.woocommerce .star-rating-wrap .count-rating {
+		margin-left: 0;
+		margin-right: 8px;
+	}
+	&.single-product #primary div.product .entry-summary .price ins {
+		margin-right: 0;
+		margin-left: 22px;
+	}
+	.ct-list.layout2 li label {
+		margin-right: 0;
+		margin-left: 30px;
+	}
+	&.single-product #primary div.product .woocommerce-product-gallery {
+		direction: ltr;
+	}
+}

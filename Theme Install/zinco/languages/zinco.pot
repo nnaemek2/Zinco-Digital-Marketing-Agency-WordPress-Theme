@@ -1,0 +1,3256 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Zinco 1.0.0\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
+"POT-Creation-Date: 2023-10-26 13:58+0700\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"PO-Revision-Date: 2016-12-23 16:00+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.0.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:7
+msgid "OOPS! This Page Are Can’t Be Found"
+msgstr ""
+
+#: 404.php:8
+msgid "Sorry, but the page you are looking for does not existing"
+msgstr ""
+
+#: 404.php:28
+msgid "Go To Home"
+msgstr ""
+
+#: comments.php:32 inc/template-tags.php:418 inc/template-tags.php:450
+#: vc_templates/ct_blog_carousel.php:59
+#: vc_templates/ct_blog_grid--layout2.php:63 vc_templates/ct_blog_grid.php:143
+msgid "1 Comment"
+msgstr ""
+
+#: comments.php:34 inc/theme-options.php:651 inc/theme-options.php:723
+msgid "Comments"
+msgstr ""
+
+#: comments.php:54
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:63
+msgid "Leave A Reply"
+msgstr ""
+
+#: comments.php:64
+msgid "Leave A Reply To "
+msgstr ""
+
+#: comments.php:65
+msgid "Cancel Reply"
+msgstr ""
+
+#: comments.php:66
+msgid "Send Comment"
+msgstr ""
+
+#: comments.php:73
+msgid "Type your name...."
+msgstr ""
+
+#: comments.php:78
+msgid "Type your email...."
+msgstr ""
+
+#: comments.php:82
+msgid "Type your website...."
+msgstr ""
+
+#: comments.php:85
+msgid "Type your comments...."
+msgstr ""
+
+#: functions.php:35
+msgid "Primary"
+msgstr ""
+
+#: functions.php:36
+msgid "Language"
+msgstr ""
+
+#: functions.php:109
+msgid "Blog Sidebar"
+msgstr ""
+
+#: functions.php:111 functions.php:122 functions.php:134 functions.php:149
+msgid "Add widgets here."
+msgstr ""
+
+#: functions.php:120
+msgid "Page Sidebar"
+msgstr ""
+
+#: functions.php:132
+msgid "Shop Sidebar"
+msgstr ""
+
+#: functions.php:147
+#, php-format
+msgid "Footer Top %s"
+msgstr ""
+
+#: functions.php:403
+msgctxt "Open Sans font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:408
+msgctxt "Quicksand font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:413
+msgctxt "Muli font: on or off"
+msgid "on"
+msgstr ""
+
+#: inc/classes/class-breadcrumb.php:52
+msgid "Home"
+msgstr ""
+
+#: inc/classes/class-breadcrumb.php:56
+msgid "Not Found"
+msgstr ""
+
+#: inc/classes/class-breadcrumb.php:57
+msgid "Search Results"
+msgstr ""
+
+#: inc/classes/class-breadcrumb.php:328
+msgid "Tag:"
+msgstr ""
+
+#: inc/classes/class-breadcrumb.php:344 inc/template-functions.php:167
+msgid "Author:"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:334 inc/require-plugins.php:99
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:335 inc/require-plugins.php:100
+msgid "Install Plugins"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:337 inc/require-plugins.php:101
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:340 inc/require-plugins.php:102
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:343 inc/require-plugins.php:103
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/libs/class-tgm-plugin-activation.php:349 inc/require-plugins.php:104
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/libs/class-tgm-plugin-activation.php:355 inc/require-plugins.php:109
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/libs/class-tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/libs/class-tgm-plugin-activation.php:367 inc/require-plugins.php:106
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/libs/class-tgm-plugin-activation.php:373 inc/require-plugins.php:107
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/libs/class-tgm-plugin-activation.php:378 inc/require-plugins.php:111
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/libs/class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/libs/class-tgm-plugin-activation.php:388 inc/require-plugins.php:112
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/libs/class-tgm-plugin-activation.php:392 inc/require-plugins.php:113
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:393
+#: inc/libs/class-tgm-plugin-activation.php:920
+#: inc/libs/class-tgm-plugin-activation.php:2625
+#: inc/libs/class-tgm-plugin-activation.php:3670
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:394
+#: inc/libs/class-tgm-plugin-activation.php:3250 inc/require-plugins.php:114
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:395
+#: inc/libs/class-tgm-plugin-activation.php:3043
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/libs/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:725
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:1026
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:1026
+#: inc/libs/class-tgm-plugin-activation.php:1029
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:1029
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:1213
+#: inc/libs/class-tgm-plugin-activation.php:3039
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2074
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2365
+msgid "Required"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2368
+msgid "Recommended"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2384
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2387
+msgid "External Source"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2390
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2407
+msgid "Not Installed"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2411
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2413
+msgid "Active"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2419
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2422
+msgid "Requires Update"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2425
+msgid "Update recommended"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2434
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2480
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2484
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2488
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2492
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2574
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2582
+msgid "Installed version:"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2590
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2602
+msgid "Available version:"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2625
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2638
+msgid "Plugin"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2639
+msgid "Source"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2640
+msgid "Type"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2644
+msgid "Version"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2645
+msgid "Status"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2694
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2699
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2705
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2775
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2808
+msgid "Install"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2814
+msgid "Update"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2817
+msgid "Activate"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2848
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2850
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2891
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2893
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:2999
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:3025
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:3249
+msgid "Plugin activation failed."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:3589
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:3592
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:3598
+msgid ""
+"The installation and activation process is starting. This process may take "
+"a while on some hosts, so please be patient."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:3601
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:3603
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:3606
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:3609
+msgid "All installations have been completed."
+msgstr ""
+
+#: inc/libs/class-tgm-plugin-activation.php:3611
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/page-options.php:21 inc/theme-options.php:1042
+#: inc/theme-options.php:1079
+msgid "Default"
+msgstr ""
+
+#: inc/page-options.php:37
+msgid "Post Settings"
+msgstr ""
+
+#: inc/page-options.php:48
+msgid "Page Settings"
+msgstr ""
+
+#: inc/page-options.php:59 inc/page-options.php:395
+msgid "Audio"
+msgstr ""
+
+#: inc/page-options.php:70 inc/page-options.php:408
+#: vc_elements/ct_button.php:20 vc_elements/ct_client_carousel.php:27
+#: vc_elements/ct_fancybox.php:340 vc_elements/ct_fancybox.php:343
+#: vc_elements/ct_fancybox_carousel.php:66 vc_elements/ct_single_image.php:21
+#: vc_elements/ct_team_grid.php:68 vc_elements/ct_team_grid.php:96
+msgid "Link"
+msgstr ""
+
+#: inc/page-options.php:80 inc/page-options.php:426
+msgid "Quote"
+msgstr ""
+
+#: inc/page-options.php:90 inc/page-options.php:364
+msgid "Video"
+msgstr ""
+
+#: inc/page-options.php:101 inc/page-options.php:376
+msgid "Gallery"
+msgstr ""
+
+#: inc/page-options.php:113
+msgid "Portfolio Settings"
+msgstr ""
+
+#: inc/page-options.php:127 inc/page-options.php:155 inc/theme-options.php:149
+msgid "General"
+msgstr ""
+
+#: inc/page-options.php:139 inc/page-options.php:289 inc/theme-options.php:592
+msgid "Content Padding"
+msgstr ""
+
+#: inc/page-options.php:140 inc/page-options.php:290
+msgid "Default: Theme Option."
+msgstr ""
+
+#: inc/page-options.php:161
+msgid "Custom Sidebar"
+msgstr ""
+
+#: inc/page-options.php:168 inc/page-options.php:307 inc/theme-options.php:619
+#: inc/theme-options.php:674 inc/theme-options.php:1216
+msgid "Sidebar Position"
+msgstr ""
+
+#: inc/page-options.php:170 inc/page-options.php:309 inc/theme-options.php:622
+#: inc/theme-options.php:677 inc/theme-options.php:1219
+msgid "Left"
+msgstr ""
+
+#: inc/page-options.php:171 inc/page-options.php:310 inc/theme-options.php:623
+#: inc/theme-options.php:678 inc/theme-options.php:1220
+msgid "Right"
+msgstr ""
+
+#: inc/page-options.php:172 inc/theme-options.php:624
+#: inc/theme-options.php:679 inc/theme-options.php:1221
+msgid "Disabled"
+msgstr ""
+
+#: inc/page-options.php:187 inc/theme-options.php:211
+msgid "Header"
+msgstr ""
+
+#: inc/page-options.php:188
+msgid "Header settings for the page."
+msgstr ""
+
+#: inc/page-options.php:194
+msgid "Custom Header"
+msgstr ""
+
+#: inc/page-options.php:201 inc/page-options.php:334 inc/theme-options.php:217
+#: inc/theme-options.php:799 vc_elements/ct_list.php:12
+msgid "Layout"
+msgstr ""
+
+#: inc/page-options.php:202 inc/theme-options.php:218
+msgid "Select a layout for header."
+msgstr ""
+
+#: inc/page-options.php:216
+msgid "Custom Menu"
+msgstr ""
+
+#: inc/page-options.php:217
+msgid "Custom menu for current page."
+msgstr ""
+
+#: inc/page-options.php:225 inc/theme-options.php:505
+msgid "Page Title"
+msgstr ""
+
+#: inc/page-options.php:231 inc/theme-options.php:511
+msgid "Displayed"
+msgstr ""
+
+#: inc/page-options.php:233
+msgid "Theme Option"
+msgstr ""
+
+#: inc/page-options.php:234 inc/theme-options.php:387
+#: inc/theme-options.php:513 inc/theme-options.php:551
+#: inc/theme-options.php:897 widgets/widget-recent-posts.php:157
+msgid "Show"
+msgstr ""
+
+#: inc/page-options.php:235 inc/theme-options.php:514
+#: inc/theme-options.php:552
+msgid "Hidden"
+msgstr ""
+
+#: inc/page-options.php:242 inc/theme-options.php:925
+#: vc_elements/ct_accordion.php:24 vc_elements/ct_contact_info.php:12
+#: vc_elements/ct_counter.php:13 vc_elements/ct_counter.php:16
+#: vc_elements/ct_counter.php:24 vc_elements/ct_counter_grid.php:27
+#: vc_elements/ct_counter_grid.php:30 vc_elements/ct_fancybox.php:40
+#: vc_elements/ct_fancybox.php:43 vc_elements/ct_fancybox.php:51
+#: vc_elements/ct_fancybox.php:64 vc_elements/ct_fancybox.php:72
+#: vc_elements/ct_fancybox.php:80 vc_elements/ct_fancybox_carousel.php:37
+#: vc_elements/ct_heading.php:18 vc_elements/ct_heading.php:32
+#: vc_elements/ct_heading.php:49 vc_elements/ct_heading.php:61
+#: vc_elements/ct_heading.php:73 vc_elements/ct_heading.php:85
+#: vc_elements/ct_heading.php:97 vc_elements/ct_heading.php:105
+#: vc_elements/ct_heading.php:113 vc_elements/ct_heading.php:121
+#: vc_elements/ct_heading.php:129 vc_elements/ct_heading.php:139
+#: vc_elements/ct_heading.php:148 vc_elements/ct_heading.php:157
+#: vc_elements/ct_heading.php:166 vc_elements/ct_heading.php:176
+#: vc_elements/ct_heading.php:185 vc_elements/ct_heading.php:194
+#: vc_elements/ct_heading.php:203 vc_elements/ct_heading.php:217
+#: vc_elements/ct_heading.php:232 vc_elements/ct_heading.php:243
+#: vc_elements/ct_heading.php:251 vc_elements/ct_heading.php:258
+#: vc_elements/ct_heading.php:268 vc_elements/ct_heading.php:286
+#: vc_elements/ct_heading.php:293 vc_elements/ct_heading.php:304
+#: vc_elements/ct_heading.php:316 vc_elements/ct_list.php:29
+#: vc_elements/ct_pricing.php:13 vc_elements/ct_team_grid.php:53
+#: vc_elements/ct_testimonial_carousel.php:44
+#: vc_elements/ct_testimonial_carousel.php:99
+#: vc_elements/ct_testimonial_grid.php:37 vc_elements/ct_timeline.php:19
+msgid "Title"
+msgstr ""
+
+#: inc/page-options.php:243
+msgid ""
+"Use custom title for this page. The default title will be used on document "
+"title."
+msgstr ""
+
+#: inc/page-options.php:249 inc/theme-options.php:311
+#: vc_elements/ct_fancybox.php:69 vc_elements/ct_heading.php:330
+#: vc_elements/ct_heading.php:361
+msgid "Font Size"
+msgstr ""
+
+#: inc/page-options.php:259 inc/theme-options.php:521
+msgid "Background"
+msgstr ""
+
+#: inc/page-options.php:260 inc/theme-options.php:522
+msgid "Page title background color."
+msgstr ""
+
+#: inc/page-options.php:269 inc/theme-options.php:566
+#: inc/theme-options.php:931 vc_elements/ct_accordion.php:30
+#: vc_elements/ct_contact_info.php:20 vc_elements/ct_list.php:36
+#: vc_elements/ct_list.php:58 vc_elements/ct_portfolio_details.php:25
+#: vc_elements/ct_team_grid.php:29 vc_elements/ct_testimonial_carousel.php:56
+#: vc_elements/ct_testimonial_carousel.php:111
+#: vc_elements/ct_testimonial_grid.php:29
+#: vc_elements/ct_testimonial_grid.php:44 vc_elements/ct_timeline.php:26
+msgid "Content"
+msgstr ""
+
+#: inc/page-options.php:270
+msgid "Settings for content area."
+msgstr ""
+
+#: inc/page-options.php:276
+msgid "Background Color"
+msgstr ""
+
+#: inc/page-options.php:277 inc/theme-options.php:573
+msgid "Content background color."
+msgstr ""
+
+#: inc/page-options.php:300
+msgid "Show Sidebar"
+msgstr ""
+
+#: inc/page-options.php:320 inc/theme-options.php:793
+msgid "Footer"
+msgstr ""
+
+#: inc/page-options.php:321
+msgid "Settings for footer area."
+msgstr ""
+
+#: inc/page-options.php:327
+msgid "Custom Footer"
+msgstr ""
+
+#: inc/page-options.php:335 inc/theme-options.php:800
+msgid "Select a layout for footer."
+msgstr ""
+
+#: inc/page-options.php:348 inc/theme-options.php:811
+msgid "Custom Layout"
+msgstr ""
+
+#: inc/page-options.php:349 inc/theme-options.php:812
+#, php-format
+msgid ""
+"To use this Option please %sClick Here%s to add your custom footer layout "
+"first."
+msgstr ""
+
+#: inc/page-options.php:369
+msgid "Video URL"
+msgstr ""
+
+#: inc/page-options.php:370
+msgid "YouTube or Vimeo video URL"
+msgstr ""
+
+#: inc/page-options.php:381
+msgid "Lightbox?"
+msgstr ""
+
+#: inc/page-options.php:382
+msgid "Enable lightbox for gallery images."
+msgstr ""
+
+#: inc/page-options.php:388
+msgid "Gallery Images "
+msgstr ""
+
+#: inc/page-options.php:389
+msgid "Upload images or add from media library."
+msgstr ""
+
+#: inc/page-options.php:400
+msgid "SoundCloud URL"
+msgstr ""
+
+#: inc/page-options.php:413
+msgid "URL"
+msgstr ""
+
+#: inc/page-options.php:421
+msgid "Quote Settings"
+msgstr ""
+
+#: inc/require-plugins.php:31
+msgid "1 Redux Framework"
+msgstr ""
+
+#: inc/require-plugins.php:37
+msgid "CTCore"
+msgstr ""
+
+#: inc/require-plugins.php:44
+msgid "CTImport"
+msgstr ""
+
+#: inc/require-plugins.php:51
+msgid "WPBakery Page Builder"
+msgstr ""
+
+#: inc/require-plugins.php:58
+msgid "Revolution Slider"
+msgstr ""
+
+#: inc/require-plugins.php:65 vc_elements/ct_contact_form.php:18
+msgid "Contact Form 7"
+msgstr ""
+
+#: inc/require-plugins.php:71 inc/theme-options.php:894
+msgid "Newsletter"
+msgstr ""
+
+#: inc/require-plugins.php:77
+msgid "WooCommerce"
+msgstr ""
+
+#: inc/require-plugins.php:105
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/require-plugins.php:108
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/require-plugins.php:110
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/require-plugins.php:115
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: inc/template-functions.php:148
+msgid "Blog"
+msgstr ""
+
+#: inc/template-functions.php:157
+msgid "Error 404"
+msgstr ""
+
+#: inc/template-functions.php:159
+msgid "Search results"
+msgstr ""
+
+#: inc/template-functions.php:177
+msgid "Our Shop"
+msgstr ""
+
+#: inc/template-functions.php:227
+msgid "Post password required."
+msgstr ""
+
+#: inc/template-functions.php:385 inc/template-functions.php:386
+msgid "Footers"
+msgstr ""
+
+#: inc/template-functions.php:406
+msgid "Settings"
+msgstr ""
+
+#: inc/template-functions.php:421
+msgid "Portfolio Category"
+msgstr ""
+
+#: inc/template-functions.php:422
+msgid "Portfolio Categories"
+msgstr ""
+
+#: inc/template-functions.php:506 vc_elements/ct_blog_grid.php:202
+#: vc_elements/ct_counter_grid.php:79 vc_elements/ct_portfolio_grid.php:169
+#: vc_elements/ct_portfolio_grid.php:232 vc_elements/ct_team_grid.php:106
+#: vc_elements/ct_testimonial_grid.php:79
+msgid "Columns XS"
+msgstr ""
+
+#: inc/template-functions.php:515 vc_elements/ct_blog_grid.php:217
+#: vc_elements/ct_counter_grid.php:88 vc_elements/ct_portfolio_grid.php:178
+#: vc_elements/ct_portfolio_grid.php:241 vc_elements/ct_team_grid.php:115
+#: vc_elements/ct_testimonial_grid.php:88
+msgid "Columns SM"
+msgstr ""
+
+#: inc/template-functions.php:524 vc_elements/ct_blog_grid.php:232
+#: vc_elements/ct_counter_grid.php:97 vc_elements/ct_portfolio_grid.php:187
+#: vc_elements/ct_portfolio_grid.php:250 vc_elements/ct_team_grid.php:124
+#: vc_elements/ct_testimonial_grid.php:97
+msgid "Columns MD"
+msgstr ""
+
+#: inc/template-functions.php:533 vc_elements/ct_blog_grid.php:247
+#: vc_elements/ct_counter_grid.php:106 vc_elements/ct_portfolio_grid.php:196
+#: vc_elements/ct_portfolio_grid.php:259 vc_elements/ct_team_grid.php:133
+#: vc_elements/ct_testimonial_grid.php:106
+msgid "Columns LG"
+msgstr ""
+
+#: inc/template-functions.php:542 vc_elements/ct_blog_grid.php:262
+#: vc_elements/ct_counter_grid.php:115 vc_elements/ct_portfolio_grid.php:205
+#: vc_elements/ct_portfolio_grid.php:268 vc_elements/ct_team_grid.php:142
+#: vc_elements/ct_testimonial_grid.php:115
+msgid "Columns XL"
+msgstr ""
+
+#: inc/template-functions.php:551
+msgid "Margin Items"
+msgstr ""
+
+#: inc/template-functions.php:559
+msgid "Loop Items"
+msgstr ""
+
+#: inc/template-functions.php:569
+msgid "Autoplay"
+msgstr ""
+
+#: inc/template-functions.php:579
+msgid "Autoplay Timeout"
+msgstr ""
+
+#: inc/template-functions.php:591
+msgid "Smart Speed"
+msgstr ""
+
+#: inc/template-functions.php:603
+msgid "Center"
+msgstr ""
+
+#: inc/template-functions.php:613
+msgid "Stage Padding XXL"
+msgstr ""
+
+#: inc/template-functions.php:625
+msgid "Stage Padding XL"
+msgstr ""
+
+#: inc/template-functions.php:637
+msgid "Stage Padding LG"
+msgstr ""
+
+#: inc/template-functions.php:649
+msgid "Show Arrows"
+msgstr ""
+
+#: inc/template-functions.php:659
+msgid "Show Bullets"
+msgstr ""
+
+#: inc/template-tags.php:313
+msgid "Edit"
+msgstr ""
+
+#: inc/template-tags.php:390 inc/theme-options.php:288
+#: inc/theme-options.php:737
+msgid "Navigation"
+msgstr ""
+
+#: inc/template-tags.php:412 inc/template-tags.php:444
+#: vc_templates/ct_blog_carousel.php:55
+#: vc_templates/ct_blog_grid--layout2.php:59 vc_templates/ct_blog_grid.php:139
+msgid "By"
+msgstr ""
+
+#: inc/template-tags.php:418 inc/template-tags.php:450
+#: vc_templates/ct_blog_carousel.php:59
+#: vc_templates/ct_blog_grid--layout2.php:63 vc_templates/ct_blog_grid.php:143
+msgid "No Comments"
+msgstr ""
+
+#: inc/template-tags.php:418 inc/template-tags.php:450
+#: vc_templates/ct_blog_carousel.php:59
+#: vc_templates/ct_blog_grid--layout2.php:63 vc_templates/ct_blog_grid.php:143
+msgid "% Comments"
+msgstr ""
+
+#: inc/template-tags.php:457
+msgid "Sticky"
+msgstr ""
+
+#: inc/template-tags.php:472
+msgid "Releted Tags:"
+msgstr ""
+
+#: inc/template-tags.php:487
+msgid "Share:"
+msgstr ""
+
+#: inc/template-tags.php:488 inc/template-tags.php:499
+#: inc/template-tags.php:507 inc/template-tags.php:894
+#: widgets/widget-social.php:68 woocommerce/wc-function-hooks.php:185
+msgid "Facebook"
+msgstr ""
+
+#: inc/template-tags.php:489 inc/template-tags.php:500
+#: inc/template-tags.php:508 inc/template-tags.php:900
+#: widgets/widget-social.php:80 woocommerce/wc-function-hooks.php:186
+msgid "Twitter"
+msgstr ""
+
+#: inc/template-tags.php:490 inc/template-tags.php:501
+#: inc/template-tags.php:509 woocommerce/wc-function-hooks.php:187
+msgid "Google Plus"
+msgstr ""
+
+#: inc/template-tags.php:491 inc/template-tags.php:510
+#: inc/template-tags.php:948 widgets/widget-social.php:108
+#: woocommerce/wc-function-hooks.php:188
+msgid "Pinterest"
+msgstr ""
+
+#: inc/template-tags.php:492
+msgid "Email"
+msgstr ""
+
+#: inc/template-tags.php:563
+msgid "Prev Post"
+msgstr ""
+
+#: inc/template-tags.php:574
+msgid "Next Post"
+msgstr ""
+
+#: inc/template-tags.php:612
+msgid "Releted Post"
+msgstr ""
+
+#: inc/template-tags.php:655 inc/template-tags.php:673
+msgid "Search Keywords..."
+msgstr ""
+
+#: inc/template-tags.php:676
+msgid "Press ESC key to close search"
+msgstr ""
+
+#: inc/template-tags.php:891 vc_elements/ct_team_grid.php:75
+#: widgets/widget-social.php:17
+msgid "Social"
+msgstr ""
+
+#: inc/template-tags.php:906 widgets/widget-social.php:100
+msgid "Linkedin"
+msgstr ""
+
+#: inc/template-tags.php:912 widgets/widget-social.php:88
+msgid "Skype"
+msgstr ""
+
+#: inc/template-tags.php:918
+msgid "Google"
+msgstr ""
+
+#: inc/template-tags.php:924
+msgid "Youtube"
+msgstr ""
+
+#: inc/template-tags.php:930 widgets/widget-social.php:104
+msgid "Vimeo"
+msgstr ""
+
+#: inc/template-tags.php:936
+msgid "Tumblr"
+msgstr ""
+
+#: inc/template-tags.php:942 widgets/widget-social.php:72
+msgid "Rss"
+msgstr ""
+
+#: inc/template-tags.php:954 widgets/widget-social.php:112
+msgid "Instagram"
+msgstr ""
+
+#: inc/template-tags.php:960
+msgid "Yelp"
+msgstr ""
+
+#: inc/theme-options.php:13
+msgid "Default Form"
+msgstr ""
+
+#: inc/theme-options.php:21
+#, php-format
+msgid "Form %s"
+msgstr ""
+
+#: inc/theme-options.php:44 inc/theme-options.php:45
+msgid "Theme Options"
+msgstr ""
+
+#: inc/theme-options.php:155
+msgid "Enable Page Loading"
+msgstr ""
+
+#: inc/theme-options.php:156
+msgid "Enable page loading effect when you load site."
+msgstr ""
+
+#: inc/theme-options.php:162
+msgid "Loading Style"
+msgstr ""
+
+#: inc/theme-options.php:164
+msgid "Style 1"
+msgstr ""
+
+#: inc/theme-options.php:165
+msgid "Style 2"
+msgstr ""
+
+#: inc/theme-options.php:166
+msgid "Style 3"
+msgstr ""
+
+#: inc/theme-options.php:167
+msgid "Style 4"
+msgstr ""
+
+#: inc/theme-options.php:168
+msgid "Style 5"
+msgstr ""
+
+#: inc/theme-options.php:169
+msgid "Style 6"
+msgstr ""
+
+#: inc/theme-options.php:170
+msgid "Style 7"
+msgstr ""
+
+#: inc/theme-options.php:171
+msgid "Style 8"
+msgstr ""
+
+#: inc/theme-options.php:180
+msgid "Smooth Scroll"
+msgstr ""
+
+#: inc/theme-options.php:186
+msgid "Body Boxed Background"
+msgstr ""
+
+#: inc/theme-options.php:193
+msgid "Dev Mode (not recommended)"
+msgstr ""
+
+#: inc/theme-options.php:200
+msgid "Favicon"
+msgstr ""
+
+#: inc/theme-options.php:229 inc/theme-options.php:488
+msgid "Search Icon"
+msgstr ""
+
+#: inc/theme-options.php:235 inc/theme-options.php:494
+msgid "Cart Icon"
+msgstr ""
+
+#: inc/theme-options.php:241
+msgid "Sticky Header"
+msgstr ""
+
+#: inc/theme-options.php:242
+msgid "Header will be sticked when applicable."
+msgstr ""
+
+#: inc/theme-options.php:248
+msgid "Search Background Color Overlay"
+msgstr ""
+
+#: inc/theme-options.php:256
+msgid "Logo"
+msgstr ""
+
+#: inc/theme-options.php:263
+msgid "Logo Dark"
+msgstr ""
+
+#: inc/theme-options.php:271
+msgid "Logo Light"
+msgstr ""
+
+#: inc/theme-options.php:279
+msgid "Logo Max height"
+msgstr ""
+
+#: inc/theme-options.php:280
+msgid "Set maximum height for your logo."
+msgstr ""
+
+#: inc/theme-options.php:295
+msgid "Custom Google Font"
+msgstr ""
+
+#: inc/theme-options.php:320 vc_elements/ct_heading.php:247
+msgid "Letter Spacing"
+msgstr ""
+
+#: inc/theme-options.php:329 vc_elements/ct_heading.php:207
+msgid "Text Transform"
+msgstr ""
+
+#: inc/theme-options.php:331
+msgid "Capitalize"
+msgstr ""
+
+#: inc/theme-options.php:332
+msgid "Uppercase"
+msgstr ""
+
+#: inc/theme-options.php:333
+msgid "Lowercase"
+msgstr ""
+
+#: inc/theme-options.php:334
+msgid "Initial"
+msgstr ""
+
+#: inc/theme-options.php:335 inc/theme-options.php:688
+msgid "Inherit"
+msgstr ""
+
+#: inc/theme-options.php:336
+msgid "None"
+msgstr ""
+
+#: inc/theme-options.php:343
+msgid "Menu Item Color - First Level ( Main Menu )"
+msgstr ""
+
+#: inc/theme-options.php:353
+msgid "Menu Item Color - First Level ( Sticky Menu )"
+msgstr ""
+
+#: inc/theme-options.php:363
+msgid "Menu Item Color - Sub Level"
+msgstr ""
+
+#: inc/theme-options.php:371
+msgid "Button Phone"
+msgstr ""
+
+#: inc/theme-options.php:379
+msgid "Phone Number"
+msgstr ""
+
+#: inc/theme-options.php:385
+msgid "Show Header Layout 1, Layout 3"
+msgstr ""
+
+#: inc/theme-options.php:388 inc/theme-options.php:896
+#: widgets/widget-recent-posts.php:158
+msgid "Hide"
+msgstr ""
+
+#: inc/theme-options.php:393
+msgid "Button Navigation"
+msgstr ""
+
+#: inc/theme-options.php:401
+msgid "Button Text"
+msgstr ""
+
+#: inc/theme-options.php:407
+msgid "Button Link Type"
+msgstr ""
+
+#: inc/theme-options.php:409
+msgid "Page"
+msgstr ""
+
+#: inc/theme-options.php:410
+msgid "Custom"
+msgstr ""
+
+#: inc/theme-options.php:417
+msgid "Page Link"
+msgstr ""
+
+#: inc/theme-options.php:431
+msgid "Custom Link"
+msgstr ""
+
+#: inc/theme-options.php:439
+msgid "Button Target"
+msgstr ""
+
+#: inc/theme-options.php:441
+msgid "Self"
+msgstr ""
+
+#: inc/theme-options.php:442
+msgid "Blank"
+msgstr ""
+
+#: inc/theme-options.php:450
+msgid "Mobile"
+msgstr ""
+
+#: inc/theme-options.php:457
+msgid "Header Background Color"
+msgstr ""
+
+#: inc/theme-options.php:464
+msgid "Header Icon Menu Color"
+msgstr ""
+
+#: inc/theme-options.php:471
+msgid "Menu Background Color"
+msgstr ""
+
+#: inc/theme-options.php:478
+msgid "Menu Item Color"
+msgstr ""
+
+#: inc/theme-options.php:530
+msgid "Background Color Overlay"
+msgstr ""
+
+#: inc/theme-options.php:538 vc_elements/ct_testimonial_carousel.php:118
+#: vc_elements/ct_testimonial_grid.php:58
+msgid "Title Color"
+msgstr ""
+
+#: inc/theme-options.php:539
+msgid "Page title color."
+msgstr ""
+
+#: inc/theme-options.php:549
+msgid "Breadcrumb"
+msgstr ""
+
+#: inc/theme-options.php:572
+msgid "Content Background Color"
+msgstr ""
+
+#: inc/theme-options.php:579
+msgid "Sidebar Background Color"
+msgstr ""
+
+#: inc/theme-options.php:580
+msgid "Sidebar background color."
+msgstr ""
+
+#: inc/theme-options.php:593
+msgid "Default: Top-130px, Bottom-130px"
+msgstr ""
+
+#: inc/theme-options.php:603
+msgid "Search Form - Text Placeholder"
+msgstr ""
+
+#: inc/theme-options.php:605
+msgid "Default: Search Keywords..."
+msgstr ""
+
+#: inc/theme-options.php:612
+msgid "Archive"
+msgstr ""
+
+#: inc/theme-options.php:620
+msgid "Select a sidebar position for blog home, archive, search..."
+msgstr ""
+
+#: inc/theme-options.php:630 inc/theme-options.php:695
+msgid "Author"
+msgstr ""
+
+#: inc/theme-options.php:631
+msgid "Show author name on each post."
+msgstr ""
+
+#: inc/theme-options.php:637 inc/theme-options.php:702
+msgid "Date"
+msgstr ""
+
+#: inc/theme-options.php:638
+msgid "Show date posted on each post."
+msgstr ""
+
+#: inc/theme-options.php:644 inc/theme-options.php:709
+msgid "Categories"
+msgstr ""
+
+#: inc/theme-options.php:645
+msgid "Show category names on each post."
+msgstr ""
+
+#: inc/theme-options.php:652
+msgid "Show comments count on each post."
+msgstr ""
+
+#: inc/theme-options.php:658 inc/theme-options.php:730
+msgid "Social Share"
+msgstr ""
+
+#: inc/theme-options.php:659
+msgid "Show social share on each post."
+msgstr ""
+
+#: inc/theme-options.php:667
+msgid "Single Post"
+msgstr ""
+
+#: inc/theme-options.php:675
+msgid "Select a sidebar position"
+msgstr ""
+
+#: inc/theme-options.php:686 vc_elements/ct_custom_vc_pagram.php:197
+msgid "Text Align"
+msgstr ""
+
+#: inc/theme-options.php:689
+msgid "Justify"
+msgstr ""
+
+#: inc/theme-options.php:696
+msgid "Show author name on single post."
+msgstr ""
+
+#: inc/theme-options.php:703
+msgid "Show date on single post."
+msgstr ""
+
+#: inc/theme-options.php:710
+msgid "Show category names on single post."
+msgstr ""
+
+#: inc/theme-options.php:716
+msgid "Tags"
+msgstr ""
+
+#: inc/theme-options.php:717
+msgid "Show tags count on single post."
+msgstr ""
+
+#: inc/theme-options.php:724
+msgid "Show comments count on single post."
+msgstr ""
+
+#: inc/theme-options.php:731
+msgid "Show social share on single post."
+msgstr ""
+
+#: inc/theme-options.php:738
+msgid "Show navigation on single post."
+msgstr ""
+
+#: inc/theme-options.php:744
+msgid "Author Box"
+msgstr ""
+
+#: inc/theme-options.php:745
+msgid "Show author box on single post."
+msgstr ""
+
+#: inc/theme-options.php:751
+msgid "Comments Form"
+msgstr ""
+
+#: inc/theme-options.php:752
+msgid "Show comments form on single post."
+msgstr ""
+
+#: inc/theme-options.php:758
+msgid "Feature Image"
+msgstr ""
+
+#: inc/theme-options.php:759
+msgid "Show feature image on single post."
+msgstr ""
+
+#: inc/theme-options.php:765
+msgid "Related"
+msgstr ""
+
+#: inc/theme-options.php:766
+msgid "Show related on single post."
+msgstr ""
+
+#: inc/theme-options.php:774
+msgid "Single Portfolio"
+msgstr ""
+
+#: inc/theme-options.php:781
+msgid "Portfolio Slug"
+msgstr ""
+
+#: inc/theme-options.php:821
+msgid "Footer Top Columns"
+msgstr ""
+
+#: inc/theme-options.php:823
+msgid "1 Column"
+msgstr ""
+
+#: inc/theme-options.php:824
+msgid "2 Column"
+msgstr ""
+
+#: inc/theme-options.php:825
+msgid "3 Column"
+msgstr ""
+
+#: inc/theme-options.php:826
+msgid "4 Column"
+msgstr ""
+
+#: inc/theme-options.php:835
+msgid "Footer Bottom Copyright"
+msgstr ""
+
+#: inc/theme-options.php:838
+msgid "Custom HTML Allowed: a,br,em,strong,span,p,div,h1->h6,[ct_year]"
+msgstr ""
+
+#: inc/theme-options.php:887
+msgid "Back to Top Button"
+msgstr ""
+
+#: inc/theme-options.php:888
+msgid "Show back to top button when scrolled down."
+msgstr ""
+
+#: inc/theme-options.php:906
+msgid "Newsletter Title"
+msgstr ""
+
+#: inc/theme-options.php:919
+msgid "404 Page"
+msgstr ""
+
+#: inc/theme-options.php:977 vc_elements/ct_fancybox.php:313
+#: vc_elements/ct_pricing.php:50
+msgid "Text Button"
+msgstr ""
+
+#: inc/theme-options.php:983 vc_elements/ct_client_carousel.php:19
+#: vc_elements/ct_single_image.php:12 vc_elements/ct_team_grid.php:37
+#: vc_elements/ct_testimonial_carousel.php:61
+msgid "Image"
+msgstr ""
+
+#: inc/theme-options.php:997
+msgid "Colors"
+msgstr ""
+
+#: inc/theme-options.php:1003
+msgid "Primary Color"
+msgstr ""
+
+#: inc/theme-options.php:1010
+msgid "Secondary Color"
+msgstr ""
+
+#: inc/theme-options.php:1017
+msgid "Link Colors"
+msgstr ""
+
+#: inc/theme-options.php:1034
+msgid "Typography"
+msgstr ""
+
+#: inc/theme-options.php:1040
+msgid "Body Default Font"
+msgstr ""
+
+#: inc/theme-options.php:1043 inc/theme-options.php:1080
+msgid "Google Font"
+msgstr ""
+
+#: inc/theme-options.php:1050
+msgid "Body Google Font"
+msgstr ""
+
+#: inc/theme-options.php:1051
+msgid "This will be the default font of your website."
+msgstr ""
+
+#: inc/theme-options.php:1067
+msgid "Body Color"
+msgstr ""
+
+#: inc/theme-options.php:1077
+msgid "Heading Default Font"
+msgstr ""
+
+#: inc/theme-options.php:1087
+msgid "H1"
+msgstr ""
+
+#: inc/theme-options.php:1088
+msgid "This will be the default font for all H1 tags of your website."
+msgstr ""
+
+#: inc/theme-options.php:1102
+msgid "H2"
+msgstr ""
+
+#: inc/theme-options.php:1103
+msgid "This will be the default font for all H2 tags of your website."
+msgstr ""
+
+#: inc/theme-options.php:1117
+msgid "H3"
+msgstr ""
+
+#: inc/theme-options.php:1118
+msgid "This will be the default font for all H3 tags of your website."
+msgstr ""
+
+#: inc/theme-options.php:1132
+msgid "H4"
+msgstr ""
+
+#: inc/theme-options.php:1133
+msgid "This will be the default font for all H4 tags of your website."
+msgstr ""
+
+#: inc/theme-options.php:1147
+msgid "H5"
+msgstr ""
+
+#: inc/theme-options.php:1148
+msgid "This will be the default font for all H5 tags of your website."
+msgstr ""
+
+#: inc/theme-options.php:1162
+msgid "H6"
+msgstr ""
+
+#: inc/theme-options.php:1163
+msgid "This will be the default font for all H6 tags of your website."
+msgstr ""
+
+#: inc/theme-options.php:1178
+msgid "Fonts Selectors"
+msgstr ""
+
+#: inc/theme-options.php:1185
+msgid "Custom Font"
+msgstr ""
+
+#: inc/theme-options.php:1186
+msgid "This will be the font that applies to the class selector."
+msgstr ""
+
+#: inc/theme-options.php:1198
+msgid "CSS Selectors"
+msgstr ""
+
+#: inc/theme-options.php:1199
+msgid "Add class selectors to apply above font."
+msgstr ""
+
+#: inc/theme-options.php:1210
+msgid "Shop"
+msgstr ""
+
+#: inc/theme-options.php:1217
+msgid "Select a sidebar position for archive shop."
+msgstr ""
+
+#: inc/theme-options.php:1226
+msgid "Products displayed per page"
+msgstr ""
+
+#: inc/theme-options.php:1229
+msgid "Number product to show"
+msgstr ""
+
+#: inc/theme-options.php:1239
+msgid "Content Paddings"
+msgstr ""
+
+#: inc/theme-options.php:1240
+msgid "Content paddings."
+msgstr ""
+
+#: inc/theme-options.php:1258
+msgid "Product Social Share"
+msgstr ""
+
+#: inc/theme-options.php:1267
+msgid "Custom Code"
+msgstr ""
+
+#: inc/theme-options.php:1275
+msgid "Scripts in Header"
+msgstr ""
+
+#: inc/theme-options.php:1276
+msgid "These scripts will be printed in the <head> section."
+msgstr ""
+
+#: inc/theme-options.php:1282
+msgid "Scripts in Footer"
+msgstr ""
+
+#: inc/theme-options.php:1283
+msgid "These scripts will be printed above the </body> tag."
+msgstr ""
+
+#: inc/theme-options.php:1291 inc/theme-options.php:1298
+msgid "Custom CSS"
+msgstr ""
+
+#: inc/theme-options.php:1304
+msgid "CSS Code"
+msgstr ""
+
+#: inc/theme-options.php:1305
+msgid "Advanced CSS Options. You can paste your custom CSS Code here."
+msgstr ""
+
+#: searchform.php:10
+msgid "Search your keyword..."
+msgstr ""
+
+#: template-parts/content-none.php:11
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:22
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:35
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:41
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-search.php:116
+msgid "Reading"
+msgstr ""
+
+#: template-parts/content.php:59 template-parts/content.php:135
+#: template-parts/content.php:179 template-parts/content.php:222
+#: vc_templates/ct_blog_carousel.php:67
+#: vc_templates/ct_blog_grid--layout2.php:74 vc_templates/ct_blog_grid.php:151
+msgid "Read More"
+msgstr ""
+
+#: template-parts/header-layout-2.php:40 template-parts/header-layout-2.php:85
+#: template-parts/header-layout-3.php:52
+#: template-parts/header-layout-3.php:101 template-parts/header-layout.php:52
+#: template-parts/header-layout.php:101 woocommerce/wc-function-hooks.php:227
+msgid "Shopping Cart"
+msgstr ""
+
+#: template-parts/header-layout-2.php:40 template-parts/header-layout-2.php:85
+#: template-parts/header-layout-3.php:52
+#: template-parts/header-layout-3.php:101 template-parts/header-layout.php:52
+#: template-parts/header-layout.php:101 woocommerce/wc-function-hooks.php:227
+#: woocommerce/wc-function-hooks.php:307
+#, php-format
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: template-parts/header-menu.php:25
+msgid "Create New Menu"
+msgstr ""
+
+#: vc_elements/ct_accordion.php:6
+msgid "Collapsible content panels"
+msgstr ""
+
+#: vc_elements/ct_accordion.php:7 vc_elements/ct_blog_carousel.php:8
+#: vc_elements/ct_blog_grid.php:9 vc_elements/ct_button.php:7
+#: vc_elements/ct_client_carousel.php:7 vc_elements/ct_contact_form.php:19
+#: vc_elements/ct_contact_info.php:7 vc_elements/ct_countdown.php:9
+#: vc_elements/ct_counter.php:7 vc_elements/ct_counter_grid.php:7
+#: vc_elements/ct_fancybox.php:7 vc_elements/ct_fancybox_carousel.php:7
+#: vc_elements/ct_googlemap.php:7 vc_elements/ct_heading.php:7
+#: vc_elements/ct_list.php:7 vc_elements/ct_portfolio_carousel.php:8
+#: vc_elements/ct_portfolio_details.php:8 vc_elements/ct_portfolio_grid.php:9
+#: vc_elements/ct_pricing.php:7 vc_elements/ct_single_image.php:7
+#: vc_elements/ct_space.php:7 vc_elements/ct_team_grid.php:8
+#: vc_elements/ct_testimonial_carousel.php:7
+#: vc_elements/ct_testimonial_grid.php:8 vc_elements/ct_timeline.php:7
+msgid "CaseThemes Shortcodes"
+msgstr ""
+
+#: vc_elements/ct_accordion.php:11
+msgid "Active section"
+msgstr ""
+
+#: vc_elements/ct_accordion.php:17
+msgid "Accordion Items"
+msgstr ""
+
+#: vc_elements/ct_accordion.php:19
+msgid "Enter values for accordion item"
+msgstr ""
+
+#: vc_elements/ct_accordion.php:37 vc_elements/ct_contact_form.php:33
+#: vc_elements/ct_custom_vc_pagram.php:116
+#: vc_elements/ct_custom_vc_pagram.php:136
+#: vc_elements/ct_custom_vc_pagram.php:153
+#: vc_elements/ct_custom_vc_pagram.php:174
+#: vc_elements/ct_custom_vc_pagram.php:188
+msgid "Styles"
+msgstr ""
+
+#: vc_elements/ct_accordion.php:48 vc_elements/ct_blog_carousel.php:22
+#: vc_elements/ct_blog_grid.php:277 vc_elements/ct_button.php:285
+#: vc_elements/ct_contact_form.php:43 vc_elements/ct_contact_info.php:131
+#: vc_elements/ct_countdown.php:20 vc_elements/ct_counter.php:244
+#: vc_elements/ct_counter_grid.php:126 vc_elements/ct_fancybox.php:355
+#: vc_elements/ct_fancybox_carousel.php:23 vc_elements/ct_googlemap.php:208
+#: vc_elements/ct_heading.php:385 vc_elements/ct_list.php:75
+#: vc_elements/ct_portfolio_carousel.php:22
+#: vc_elements/ct_portfolio_details.php:48
+#: vc_elements/ct_portfolio_grid.php:284 vc_elements/ct_pricing.php:76
+#: vc_elements/ct_single_image.php:78 vc_elements/ct_team_grid.php:21
+#: vc_elements/ct_testimonial_carousel.php:23
+#: vc_elements/ct_testimonial_grid.php:21 vc_elements/ct_timeline.php:36
+msgid "Extra class name"
+msgstr ""
+
+#: vc_elements/ct_accordion.php:50 vc_elements/ct_blog_carousel.php:24
+#: vc_elements/ct_blog_grid.php:279 vc_elements/ct_button.php:287
+#: vc_elements/ct_contact_form.php:45 vc_elements/ct_contact_info.php:133
+#: vc_elements/ct_countdown.php:22 vc_elements/ct_counter.php:246
+#: vc_elements/ct_counter_grid.php:128 vc_elements/ct_fancybox.php:357
+#: vc_elements/ct_fancybox_carousel.php:25 vc_elements/ct_googlemap.php:210
+#: vc_elements/ct_heading.php:387 vc_elements/ct_list.php:77
+#: vc_elements/ct_portfolio_carousel.php:24
+#: vc_elements/ct_portfolio_details.php:50
+#: vc_elements/ct_portfolio_grid.php:286 vc_elements/ct_pricing.php:78
+#: vc_elements/ct_single_image.php:80 vc_elements/ct_team_grid.php:23
+#: vc_elements/ct_testimonial_carousel.php:25
+#: vc_elements/ct_testimonial_grid.php:23 vc_elements/ct_timeline.php:38
+msgid ""
+"Style particular content element differently - add a class name and refer "
+"to it in Custom CSS."
+msgstr ""
+
+#: vc_elements/ct_accordion.php:51 vc_elements/ct_accordion.php:60
+#: vc_elements/ct_blog_grid.php:280 vc_elements/ct_contact_form.php:46
+#: vc_elements/ct_contact_form.php:55 vc_elements/ct_contact_info.php:134
+#: vc_elements/ct_countdown.php:23 vc_elements/ct_countdown.php:32
+#: vc_elements/ct_counter.php:247 vc_elements/ct_counter.php:256
+#: vc_elements/ct_counter_grid.php:129 vc_elements/ct_counter_grid.php:138
+#: vc_elements/ct_fancybox.php:358 vc_elements/ct_fancybox.php:367
+#: vc_elements/ct_heading.php:388 vc_elements/ct_heading.php:397
+#: vc_elements/ct_list.php:78 vc_elements/ct_list.php:87
+#: vc_elements/ct_portfolio_details.php:51 vc_elements/ct_pricing.php:79
+#: vc_elements/ct_pricing.php:88 vc_elements/ct_single_image.php:81
+#: vc_elements/ct_single_image.php:90 vc_elements/ct_timeline.php:39
+#: vc_elements/ct_timeline.php:48
+msgid "Extra"
+msgstr ""
+
+#: vc_elements/ct_accordion.php:55 vc_elements/ct_button.php:292
+#: vc_elements/ct_contact_form.php:50 vc_elements/ct_countdown.php:27
+#: vc_elements/ct_counter.php:251 vc_elements/ct_counter_grid.php:133
+#: vc_elements/ct_fancybox.php:362 vc_elements/ct_heading.php:392
+#: vc_elements/ct_list.php:82 vc_elements/ct_pricing.php:83
+#: vc_elements/ct_single_image.php:85 vc_elements/ct_timeline.php:43
+msgid "Animation Style"
+msgstr ""
+
+#: vc_elements/ct_accordion.php:57 vc_elements/ct_button.php:294
+#: vc_elements/ct_contact_form.php:52 vc_elements/ct_countdown.php:29
+#: vc_elements/ct_counter.php:253 vc_elements/ct_counter_grid.php:135
+#: vc_elements/ct_custom_vc_pagram.php:93 vc_elements/ct_fancybox.php:364
+#: vc_elements/ct_heading.php:394 vc_elements/ct_list.php:84
+#: vc_elements/ct_pricing.php:85 vc_elements/ct_single_image.php:87
+#: vc_elements/ct_timeline.php:45
+msgid "Choose your animation style"
+msgstr ""
+
+#: vc_elements/ct_blog_carousel.php:7 vc_elements/ct_portfolio_carousel.php:7
+msgid "Post in Carousel"
+msgstr ""
+
+#: vc_elements/ct_blog_carousel.php:15 vc_elements/ct_blog_grid.php:15
+#: vc_elements/ct_fancybox.php:15 vc_elements/ct_fancybox_carousel.php:15
+#: vc_elements/ct_portfolio_carousel.php:15
+#: vc_elements/ct_portfolio_grid.php:15 vc_elements/ct_team_grid.php:14
+#: vc_elements/ct_testimonial_carousel.php:15
+#: vc_elements/ct_testimonial_grid.php:14
+msgid "Shortcode Template"
+msgstr ""
+
+#: vc_elements/ct_blog_carousel.php:18 vc_elements/ct_blog_carousel.php:25
+#: vc_elements/ct_blog_grid.php:18 vc_elements/ct_fancybox.php:17
+#: vc_elements/ct_fancybox.php:28 vc_elements/ct_fancybox_carousel.php:17
+#: vc_elements/ct_fancybox_carousel.php:26
+#: vc_elements/ct_portfolio_carousel.php:18
+#: vc_elements/ct_portfolio_carousel.php:25
+#: vc_elements/ct_portfolio_grid.php:18 vc_elements/ct_team_grid.php:17
+#: vc_elements/ct_team_grid.php:24 vc_elements/ct_testimonial_carousel.php:17
+#: vc_elements/ct_testimonial_carousel.php:26
+#: vc_elements/ct_testimonial_grid.php:17
+#: vc_elements/ct_testimonial_grid.php:24
+msgid "Template"
+msgstr ""
+
+#: vc_elements/ct_blog_carousel.php:29 vc_elements/ct_blog_grid.php:22
+#: vc_elements/ct_portfolio_carousel.php:29
+#: vc_elements/ct_portfolio_grid.php:23
+msgid "Custom Source"
+msgstr ""
+
+#: vc_elements/ct_blog_carousel.php:33 vc_elements/ct_blog_carousel.php:50
+#: vc_elements/ct_blog_carousel.php:68 vc_elements/ct_blog_carousel.php:82
+#: vc_elements/ct_blog_carousel.php:93 vc_elements/ct_blog_carousel.php:100
+#: vc_elements/ct_blog_carousel.php:109 vc_elements/ct_blog_carousel.php:116
+#: vc_elements/ct_blog_carousel.php:123 vc_elements/ct_blog_grid.php:26
+#: vc_elements/ct_blog_grid.php:43 vc_elements/ct_blog_grid.php:61
+#: vc_elements/ct_blog_grid.php:75 vc_elements/ct_blog_grid.php:86
+#: vc_elements/ct_blog_grid.php:93 vc_elements/ct_blog_grid.php:101
+#: vc_elements/ct_portfolio_carousel.php:33
+#: vc_elements/ct_portfolio_carousel.php:50
+#: vc_elements/ct_portfolio_carousel.php:68
+#: vc_elements/ct_portfolio_carousel.php:82
+#: vc_elements/ct_portfolio_carousel.php:93
+#: vc_elements/ct_portfolio_carousel.php:100
+#: vc_elements/ct_portfolio_carousel.php:109
+#: vc_elements/ct_portfolio_details.php:42
+#: vc_elements/ct_portfolio_grid.php:27 vc_elements/ct_portfolio_grid.php:44
+#: vc_elements/ct_portfolio_grid.php:62 vc_elements/ct_portfolio_grid.php:76
+#: vc_elements/ct_portfolio_grid.php:87 vc_elements/ct_portfolio_grid.php:94
+#: vc_elements/ct_pricing.php:16 vc_elements/ct_pricing.php:24
+#: vc_elements/ct_pricing.php:31 vc_elements/ct_pricing.php:38
+#: vc_elements/ct_pricing.php:53 vc_elements/ct_pricing.php:60
+#: vc_elements/ct_pricing.php:70 vc_elements/ct_team_grid.php:33
+#: vc_elements/ct_team_grid.php:41 vc_elements/ct_team_grid.php:49
+#: vc_elements/ct_team_grid.php:56 vc_elements/ct_team_grid.php:63
+#: vc_elements/ct_team_grid.php:71 vc_elements/ct_team_grid.php:79
+#: vc_elements/ct_testimonial_grid.php:33
+#: vc_elements/ct_testimonial_grid.php:40
+#: vc_elements/ct_testimonial_grid.php:52
+#: vc_elements/ct_testimonial_grid.php:61
+#: vc_elements/ct_testimonial_grid.php:68
+#: vc_elements/ct_testimonial_grid.php:75
+msgid "Source Settings"
+msgstr ""
+
+#: vc_elements/ct_blog_carousel.php:37 vc_elements/ct_blog_grid.php:30
+#: vc_elements/ct_portfolio_carousel.php:37
+#: vc_elements/ct_portfolio_grid.php:31
+msgid "Select Categories"
+msgstr ""
+
+#: vc_elements/ct_blog_carousel.php:39 vc_elements/ct_blog_grid.php:32
+#: vc_elements/ct_portfolio_carousel.php:39
+#: vc_elements/ct_portfolio_grid.php:33
+msgid "Leave blank to select all category"
+msgstr ""
+
+#: vc_elements/ct_blog_carousel.php:55 vc_elements/ct_blog_grid.php:48
+#: vc_elements/ct_portfolio_carousel.php:55
+#: vc_elements/ct_portfolio_grid.php:49
+msgid "Select Post Name"
+msgstr ""
+
+#: vc_elements/ct_blog_carousel.php:57 vc_elements/ct_blog_grid.php:50
+#: vc_elements/ct_portfolio_grid.php:51
+msgid "Leave blank to show all post"
+msgstr ""
+
+#: vc_elements/ct_blog_carousel.php:72 vc_elements/ct_blog_grid.php:65
+#: vc_elements/ct_portfolio_carousel.php:72
+#: vc_elements/ct_portfolio_grid.php:66
+msgid "Order by"
+msgstr ""
+
+#: vc_elements/ct_blog_carousel.php:86 vc_elements/ct_blog_grid.php:79
+#: vc_elements/ct_portfolio_carousel.php:86
+#: vc_elements/ct_portfolio_grid.php:80
+msgid "Sort order"
+msgstr ""
+
+#: vc_elements/ct_blog_carousel.php:97 vc_elements/ct_blog_grid.php:90
+#: vc_elements/ct_portfolio_carousel.php:97
+#: vc_elements/ct_portfolio_grid.php:91
+msgid "Total items"
+msgstr ""
+
+#: vc_elements/ct_blog_carousel.php:101
+#: vc_elements/ct_portfolio_carousel.php:101
+msgid "Set max limit for items in carousel. Enter number only"
+msgstr ""
+
+#: vc_elements/ct_blog_carousel.php:105
+#: vc_elements/ct_portfolio_carousel.php:105
+msgid "Image Size"
+msgstr ""
+
+#: vc_elements/ct_blog_carousel.php:108
+#: vc_elements/ct_portfolio_carousel.php:108 vc_elements/ct_team_grid.php:48
+msgid ""
+"Enter image size (Example: 'thumbnail', 'medium', 'large', 'full' or other "
+"sizes defined by theme). Alternatively enter size in pixels (Example: "
+"200x100 (Width x Height)."
+msgstr ""
+
+#: vc_elements/ct_blog_carousel.php:113 vc_elements/ct_blog_grid.php:98
+msgid "Length of excerpt"
+msgstr ""
+
+#: vc_elements/ct_blog_carousel.php:120
+msgid "Readmore text of button"
+msgstr ""
+
+#: vc_elements/ct_blog_grid.php:5
+msgid "Blog Grid"
+msgstr ""
+
+#: vc_elements/ct_blog_grid.php:8
+msgid "Posts in masonry grid"
+msgstr ""
+
+#: vc_elements/ct_blog_grid.php:94 vc_elements/ct_portfolio_grid.php:95
+msgid "Set max limit for items in grid. Enter number only"
+msgstr ""
+
+#: vc_elements/ct_blog_grid.php:111 vc_elements/ct_portfolio_grid.php:100
+#: vc_elements/ct_single_image.php:28 vc_elements/ct_team_grid.php:45
+msgid "Image size"
+msgstr ""
+
+#: vc_elements/ct_blog_grid.php:114 vc_elements/ct_portfolio_grid.php:103
+msgid ""
+"Enter image size (Example: \"thumbnail\", \"medium\", \"large\", \"full\" "
+"or other sizes defined by theme). Alternatively enter size in pixels "
+"(Example: 200x100 (Width x Height). Enter multiple sizes (Example: "
+"100x100,200x200,300x300))."
+msgstr ""
+
+#: vc_elements/ct_blog_grid.php:115 vc_elements/ct_blog_grid.php:131
+#: vc_elements/ct_blog_grid.php:151 vc_elements/ct_blog_grid.php:172
+#: vc_elements/ct_blog_grid.php:191 vc_elements/ct_blog_grid.php:207
+#: vc_elements/ct_blog_grid.php:222 vc_elements/ct_blog_grid.php:237
+#: vc_elements/ct_blog_grid.php:252 vc_elements/ct_blog_grid.php:267
+#: vc_elements/ct_counter_grid.php:84 vc_elements/ct_counter_grid.php:93
+#: vc_elements/ct_counter_grid.php:102 vc_elements/ct_counter_grid.php:111
+#: vc_elements/ct_counter_grid.php:120 vc_elements/ct_portfolio_grid.php:104
+#: vc_elements/ct_portfolio_grid.php:115 vc_elements/ct_portfolio_grid.php:122
+#: vc_elements/ct_portfolio_grid.php:137 vc_elements/ct_portfolio_grid.php:152
+#: vc_elements/ct_portfolio_grid.php:174 vc_elements/ct_portfolio_grid.php:183
+#: vc_elements/ct_portfolio_grid.php:192 vc_elements/ct_portfolio_grid.php:201
+#: vc_elements/ct_portfolio_grid.php:210 vc_elements/ct_portfolio_grid.php:221
+#: vc_elements/ct_portfolio_grid.php:237 vc_elements/ct_portfolio_grid.php:246
+#: vc_elements/ct_portfolio_grid.php:255 vc_elements/ct_portfolio_grid.php:264
+#: vc_elements/ct_portfolio_grid.php:273 vc_elements/ct_portfolio_grid.php:280
+#: vc_elements/ct_portfolio_grid.php:287
+msgid "Grid Settings"
+msgstr ""
+
+#: vc_elements/ct_blog_grid.php:125 vc_elements/ct_portfolio_grid.php:109
+msgid "Layout Type"
+msgstr ""
+
+#: vc_elements/ct_blog_grid.php:141 vc_elements/ct_portfolio_grid.php:127
+msgid "Filter on Masonry"
+msgstr ""
+
+#: vc_elements/ct_blog_grid.php:161 vc_elements/ct_portfolio_grid.php:141
+msgid "Pagination Type"
+msgstr ""
+
+#: vc_elements/ct_blog_grid.php:176 vc_elements/ct_portfolio_grid.php:156
+msgid "Default Title"
+msgstr ""
+
+#: vc_elements/ct_blog_grid.php:179 vc_elements/ct_portfolio_grid.php:159
+msgid "Filter"
+msgstr ""
+
+#: vc_elements/ct_blog_grid.php:180 vc_elements/ct_portfolio_grid.php:160
+msgid "Enter default title for filter option display, empty: All"
+msgstr ""
+
+#: vc_elements/ct_blog_grid.php:188 vc_elements/ct_portfolio_grid.php:119
+msgid "Item Gap"
+msgstr ""
+
+#: vc_elements/ct_blog_grid.php:192 vc_elements/ct_portfolio_grid.php:123
+msgid "Select gap between grid elements. Enter number only"
+msgstr ""
+
+#: vc_elements/ct_button.php:6
+msgid "Button Displayed"
+msgstr ""
+
+#: vc_elements/ct_button.php:11 vc_elements/ct_heading.php:22
+msgid "Text"
+msgstr ""
+
+#: vc_elements/ct_button.php:15 vc_elements/ct_button.php:23
+#: vc_elements/ct_button.php:36 vc_elements/ct_button.php:46
+#: vc_elements/ct_button.php:58 vc_elements/ct_button.php:70
+#: vc_elements/ct_button.php:82 vc_elements/ct_button.php:94
+#: vc_elements/ct_button.php:103 vc_elements/ct_button.php:111
+#: vc_elements/ct_button.php:119 vc_elements/ct_button.php:127
+#: vc_elements/ct_button.php:137 vc_elements/ct_button.php:145
+#: vc_elements/ct_button.php:153 vc_elements/ct_button.php:161
+#: vc_elements/ct_button.php:288 vc_elements/ct_button.php:297
+msgid "Button Settings"
+msgstr ""
+
+#: vc_elements/ct_button.php:27
+msgid "Button Style"
+msgstr ""
+
+#: vc_elements/ct_button.php:40
+msgid "Button Size"
+msgstr ""
+
+#: vc_elements/ct_button.php:50
+msgid "Align Large"
+msgstr ""
+
+#: vc_elements/ct_button.php:62
+msgid "Align Medium"
+msgstr ""
+
+#: vc_elements/ct_button.php:74
+msgid "Align Small"
+msgstr ""
+
+#: vc_elements/ct_button.php:86
+msgid "Align Mini"
+msgstr ""
+
+#: vc_elements/ct_button.php:99
+msgid "Padding Top"
+msgstr ""
+
+#: vc_elements/ct_button.php:107
+msgid "Padding Right"
+msgstr ""
+
+#: vc_elements/ct_button.php:115
+msgid "Padding Bottom"
+msgstr ""
+
+#: vc_elements/ct_button.php:123
+msgid "Padding Left"
+msgstr ""
+
+#: vc_elements/ct_button.php:133
+msgid "Border Radius Top"
+msgstr ""
+
+#: vc_elements/ct_button.php:141
+msgid "Border Radius Right"
+msgstr ""
+
+#: vc_elements/ct_button.php:149
+msgid "Border Radius Bottom"
+msgstr ""
+
+#: vc_elements/ct_button.php:157
+msgid "Border Radius Left"
+msgstr ""
+
+#: vc_elements/ct_button.php:165 vc_elements/ct_contact_info.php:34
+#: vc_elements/ct_counter.php:113 vc_elements/ct_fancybox.php:169
+msgid "Icon Library"
+msgstr ""
+
+#: vc_elements/ct_button.php:167 vc_elements/ct_counter.php:115
+#: vc_elements/ct_fancybox.php:171
+msgid "Font Awesome 4"
+msgstr ""
+
+#: vc_elements/ct_button.php:168 vc_elements/ct_contact_info.php:37
+#: vc_elements/ct_counter.php:116 vc_elements/ct_fancybox.php:172
+msgid "Font Awesome 5"
+msgstr ""
+
+#: vc_elements/ct_button.php:169 vc_elements/ct_contact_info.php:38
+#: vc_elements/ct_counter.php:117 vc_elements/ct_fancybox.php:173
+msgid "Material Design"
+msgstr ""
+
+#: vc_elements/ct_button.php:170 vc_elements/ct_counter.php:119
+#: vc_elements/ct_fancybox.php:175
+msgid "ET Line"
+msgstr ""
+
+#: vc_elements/ct_button.php:171
+msgid "Themify"
+msgstr ""
+
+#: vc_elements/ct_button.php:174 vc_elements/ct_contact_info.php:42
+#: vc_elements/ct_counter.php:122 vc_elements/ct_fancybox.php:178
+msgid "Select icon library."
+msgstr ""
+
+#: vc_elements/ct_button.php:175 vc_elements/ct_button.php:191
+#: vc_elements/ct_button.php:208 vc_elements/ct_button.php:226
+#: vc_elements/ct_button.php:242 vc_elements/ct_button.php:258
+#: vc_elements/ct_button.php:270 vc_elements/ct_button.php:281
+#: vc_elements/ct_contact_info.php:43 vc_elements/ct_contact_info.php:59
+#: vc_elements/ct_contact_info.php:76 vc_elements/ct_contact_info.php:93
+#: vc_elements/ct_contact_info.php:105 vc_elements/ct_contact_info.php:125
+#: vc_elements/ct_counter.php:89 vc_elements/ct_counter.php:109
+#: vc_elements/ct_counter.php:127 vc_elements/ct_counter.php:143
+#: vc_elements/ct_counter.php:160 vc_elements/ct_counter.php:178
+#: vc_elements/ct_counter.php:190 vc_elements/ct_counter.php:210
+#: vc_elements/ct_counter.php:226 vc_elements/ct_counter.php:233
+#: vc_elements/ct_fancybox.php:141 vc_elements/ct_fancybox.php:165
+#: vc_elements/ct_fancybox.php:183 vc_elements/ct_fancybox.php:199
+#: vc_elements/ct_fancybox.php:216 vc_elements/ct_fancybox.php:234
+#: vc_elements/ct_fancybox.php:247 vc_elements/ct_fancybox.php:268
+#: vc_elements/ct_fancybox.php:284 vc_elements/ct_fancybox.php:291
+#: vc_elements/ct_fancybox.php:302 vc_elements/ct_team_grid.php:83
+msgid "Icon"
+msgstr ""
+
+#: vc_elements/ct_button.php:179 vc_elements/ct_contact_info.php:47
+#: vc_elements/ct_counter.php:131 vc_elements/ct_fancybox.php:187
+msgid "Icon Material"
+msgstr ""
+
+#: vc_elements/ct_button.php:190 vc_elements/ct_button.php:207
+#: vc_elements/ct_button.php:225 vc_elements/ct_button.php:241
+#: vc_elements/ct_button.php:257 vc_elements/ct_contact_info.php:58
+#: vc_elements/ct_contact_info.php:75 vc_elements/ct_contact_info.php:92
+#: vc_elements/ct_contact_info.php:124 vc_elements/ct_counter.php:142
+#: vc_elements/ct_counter.php:159 vc_elements/ct_counter.php:177
+#: vc_elements/ct_counter.php:209 vc_elements/ct_counter.php:225
+#: vc_elements/ct_counter_grid.php:61 vc_elements/ct_fancybox.php:198
+#: vc_elements/ct_fancybox.php:215 vc_elements/ct_fancybox.php:233
+#: vc_elements/ct_fancybox.php:267 vc_elements/ct_fancybox.php:283
+#: vc_elements/ct_fancybox_carousel.php:51 vc_elements/ct_team_grid.php:91
+msgid "Select icon from library."
+msgstr ""
+
+#: vc_elements/ct_button.php:195 vc_elements/ct_contact_info.php:63
+#: vc_elements/ct_counter.php:147 vc_elements/ct_fancybox.php:203
+msgid "Icon FontAwesome 4"
+msgstr ""
+
+#: vc_elements/ct_button.php:213 vc_elements/ct_contact_info.php:80
+#: vc_elements/ct_counter.php:165 vc_elements/ct_counter_grid.php:53
+#: vc_elements/ct_fancybox.php:221 vc_elements/ct_fancybox_carousel.php:43
+msgid "Icon FontAwesome 5"
+msgstr ""
+
+#: vc_elements/ct_button.php:230 vc_elements/ct_counter.php:214
+#: vc_elements/ct_fancybox.php:272
+msgid "Icon ET Line"
+msgstr ""
+
+#: vc_elements/ct_button.php:246
+msgid "Icon Themify"
+msgstr ""
+
+#: vc_elements/ct_button.php:262 vc_elements/ct_contact_info.php:97
+#: vc_elements/ct_counter.php:182 vc_elements/ct_counter_grid.php:65
+#: vc_elements/ct_fancybox.php:239 vc_elements/ct_fancybox_carousel.php:55
+msgid "Icon Weight"
+msgstr ""
+
+#: vc_elements/ct_button.php:278 vc_elements/ct_fancybox.php:300
+msgid "Icon Font Size"
+msgstr ""
+
+#: vc_elements/ct_button.php:280
+msgid "Enter number."
+msgstr ""
+
+#: vc_elements/ct_client_carousel.php:6
+msgid "Clients Displayed"
+msgstr ""
+
+#: vc_elements/ct_client_carousel.php:13
+msgid "Client Item"
+msgstr ""
+
+#: vc_elements/ct_client_carousel.php:22 vc_elements/ct_single_image.php:15
+#: vc_elements/ct_team_grid.php:40 vc_elements/ct_testimonial_carousel.php:64
+msgid "Select image from media library."
+msgstr ""
+
+#: vc_elements/ct_contact_form.php:11
+msgid "No contact forms found"
+msgstr ""
+
+#: vc_elements/ct_contact_form.php:24
+msgid "Select Contact Form"
+msgstr ""
+
+#: vc_elements/ct_contact_form.php:29
+msgid "Choose previously created contact form from the drop down list."
+msgstr ""
+
+#: vc_elements/ct_contact_info.php:6
+msgid "Contact Info Displayed"
+msgstr ""
+
+#: vc_elements/ct_contact_info.php:26
+#: vc_elements/ct_testimonial_carousel.php:130
+#: vc_elements/ct_testimonial_grid.php:65
+msgid "Content Color"
+msgstr ""
+
+#: vc_elements/ct_contact_info.php:36
+msgid "Font Awesome"
+msgstr ""
+
+#: vc_elements/ct_contact_info.php:39 vc_elements/ct_contact_info.php:113
+#: vc_elements/ct_counter.php:118 vc_elements/ct_counter.php:198
+#: vc_elements/ct_fancybox.php:174 vc_elements/ct_fancybox.php:256
+msgid "Flaticon"
+msgstr ""
+
+#: vc_elements/ct_countdown.php:5
+msgid "Countdown"
+msgstr ""
+
+#: vc_elements/ct_countdown.php:8
+msgid "Countdown Displayed"
+msgstr ""
+
+#: vc_elements/ct_countdown.php:13
+msgid "Date count down"
+msgstr ""
+
+#: vc_elements/ct_countdown.php:16
+msgid "Set date count down (Date format: yy/mm/dd)"
+msgstr ""
+
+#: vc_elements/ct_counter.php:6 vc_elements/ct_counter_grid.php:6
+msgid "Counter Displayed"
+msgstr ""
+
+#: vc_elements/ct_counter.php:21 vc_elements/ct_counter.php:51
+#: vc_elements/ct_heading.php:346 vc_elements/ct_heading.php:377
+msgid "Color"
+msgstr ""
+
+#: vc_elements/ct_counter.php:30 vc_elements/ct_counter.php:33
+#: vc_elements/ct_counter.php:40 vc_elements/ct_counter.php:47
+#: vc_elements/ct_counter.php:54 vc_elements/ct_counter.php:65
+#: vc_elements/ct_counter.php:71 vc_elements/ct_counter_grid.php:35
+msgid "Digit"
+msgstr ""
+
+#: vc_elements/ct_counter.php:37 vc_elements/ct_counter_grid.php:41
+msgid "Prefix"
+msgstr ""
+
+#: vc_elements/ct_counter.php:44 vc_elements/ct_counter_grid.php:47
+msgid "Suffix"
+msgstr ""
+
+#: vc_elements/ct_counter.php:59
+msgid "Use Grouping"
+msgstr ""
+
+#: vc_elements/ct_counter.php:69
+msgid "Separator"
+msgstr ""
+
+#: vc_elements/ct_counter.php:83 vc_elements/ct_fancybox.php:135
+msgid "Icon Type"
+msgstr ""
+
+#: vc_elements/ct_counter.php:99 vc_elements/ct_fancybox.php:155
+msgid "Icon Image"
+msgstr ""
+
+#: vc_elements/ct_counter.php:102 vc_elements/ct_fancybox.php:158
+msgid "Select icon image from media library."
+msgstr ""
+
+#: vc_elements/ct_counter.php:230 vc_elements/ct_fancybox.php:288
+msgid "Icon Color"
+msgstr ""
+
+#: vc_elements/ct_counter_grid.php:12
+msgid "Element Title"
+msgstr ""
+
+#: vc_elements/ct_counter_grid.php:20
+msgid "Counters"
+msgstr ""
+
+#: vc_elements/ct_counter_grid.php:23 vc_elements/ct_list.php:25
+#: vc_elements/ct_list.php:54 vc_elements/ct_timeline.php:15
+msgid "Set content for each item."
+msgstr ""
+
+#: vc_elements/ct_custom_vc_pagram.php:8
+#: vc_elements/ct_custom_vc_pagram.php:39
+#: vc_elements/ct_custom_vc_pagram.php:74
+msgid "Custom Style"
+msgstr ""
+
+#: vc_elements/ct_custom_vc_pagram.php:19
+#: vc_elements/ct_custom_vc_pagram.php:53
+#: vc_elements/ct_custom_vc_pagram.php:68
+#: vc_elements/ct_custom_vc_pagram.php:85
+#: vc_elements/ct_custom_vc_pagram.php:96
+msgid "Customs"
+msgstr ""
+
+#: vc_elements/ct_custom_vc_pagram.php:25
+msgid "Background Image Position"
+msgstr ""
+
+#: vc_elements/ct_custom_vc_pagram.php:33
+msgid "Design Options"
+msgstr ""
+
+#: vc_elements/ct_custom_vc_pagram.php:59
+msgid "Column Offset"
+msgstr ""
+
+#: vc_elements/ct_custom_vc_pagram.php:91
+msgid "Animation"
+msgstr ""
+
+#: vc_elements/ct_custom_vc_pagram.php:166
+msgid "Image alignment small (768px < Screen < 991px)"
+msgstr ""
+
+#: vc_elements/ct_custom_vc_pagram.php:180
+msgid "Image alignment small (Screen < 767px)"
+msgstr ""
+
+#: vc_elements/ct_custom_vc_pagram.php:210
+msgid "Text Style"
+msgstr ""
+
+#: vc_elements/ct_fancybox.php:6 vc_elements/ct_fancybox_carousel.php:6
+msgid "Fancy Box Displayed"
+msgstr ""
+
+#: vc_elements/ct_fancybox.php:21
+msgid "Box Background Color"
+msgstr ""
+
+#: vc_elements/ct_fancybox.php:48 vc_elements/ct_heading.php:323
+#: vc_elements/ct_heading.php:326 vc_elements/ct_heading.php:334
+#: vc_elements/ct_heading.php:342 vc_elements/ct_heading.php:349
+msgid "Sub Title"
+msgstr ""
+
+#: vc_elements/ct_fancybox.php:61 vc_elements/ct_fancybox.php:117
+#: vc_elements/ct_heading.php:255
+msgid "Text Color"
+msgstr ""
+
+#: vc_elements/ct_fancybox.php:77 vc_elements/ct_heading.php:338
+#: vc_elements/ct_heading.php:369
+msgid "Line Height"
+msgstr ""
+
+#: vc_elements/ct_fancybox.php:87
+msgid "Item Content"
+msgstr ""
+
+#: vc_elements/ct_fancybox.php:90 vc_elements/ct_fancybox.php:101
+#: vc_elements/ct_fancybox.php:104 vc_elements/ct_fancybox.php:120
+#: vc_elements/ct_heading.php:354 vc_elements/ct_heading.php:357
+#: vc_elements/ct_heading.php:365 vc_elements/ct_heading.php:373
+#: vc_elements/ct_heading.php:380 vc_elements/ct_pricing.php:35
+msgid "Description"
+msgstr ""
+
+#: vc_elements/ct_fancybox.php:316 vc_elements/ct_fancybox.php:329
+msgid "Button"
+msgstr ""
+
+#: vc_elements/ct_fancybox.php:326 vc_elements/ct_pricing.php:57
+msgid "Link Button"
+msgstr ""
+
+#: vc_elements/ct_fancybox_carousel.php:31
+msgid "Fancybox Item"
+msgstr ""
+
+#: vc_elements/ct_googlemap.php:6
+msgid "Google Map Displayed"
+msgstr ""
+
+#: vc_elements/ct_googlemap.php:11
+msgid "API Key"
+msgstr ""
+
+#: vc_elements/ct_googlemap.php:14
+msgid ""
+"Enter you api key of map, get key from (//console.developers.google.com)"
+msgstr ""
+
+#: vc_elements/ct_googlemap.php:18
+msgid "Address"
+msgstr ""
+
+#: vc_elements/ct_googlemap.php:21
+msgid "Enter address of Map"
+msgstr ""
+
+#: vc_elements/ct_googlemap.php:25
+msgid "Coordinate"
+msgstr ""
+
+#: vc_elements/ct_googlemap.php:28
+msgid "Enter coordinate of Map, format input (latitude, longitude)"
+msgstr ""
+
+#: vc_elements/ct_googlemap.php:32
+msgid "Click Show Info window"
+msgstr ""
+
+#: vc_elements/ct_googlemap.php:35 vc_elements/ct_googlemap.php:148
+#: vc_elements/ct_googlemap.php:157 vc_elements/ct_googlemap.php:166
+#: vc_elements/ct_googlemap.php:175 vc_elements/ct_googlemap.php:184
+#: vc_elements/ct_googlemap.php:193 vc_elements/ct_googlemap.php:202
+msgid "Yes, please"
+msgstr ""
+
+#: vc_elements/ct_googlemap.php:37
+msgid "Click a marker and show info window (Default Show)."
+msgstr ""
+
+#: vc_elements/ct_googlemap.php:41
+msgid "Marker Coordinate"
+msgstr ""
+
+#: vc_elements/ct_googlemap.php:44
+msgid "Enter marker coordinate of Map, format input (latitude, longitude)"
+msgstr ""
+
+#: vc_elements/ct_googlemap.php:48
+msgid "Marker Title"
+msgstr ""
+
+#: vc_elements/ct_googlemap.php:51
+msgid "Enter Title Info windows for marker"
+msgstr ""
+
+#: vc_elements/ct_googlemap.php:55
+msgid "Marker Description"
+msgstr ""
+
+#: vc_elements/ct_googlemap.php:58
+msgid "Enter Description Info windows for marker"
+msgstr ""
+
+#: vc_elements/ct_googlemap.php:62
+msgid "Marker Icon"
+msgstr ""
+
+#: vc_elements/ct_googlemap.php:65
+msgid "Select image icon for marker"
+msgstr ""
+
+#: vc_elements/ct_googlemap.php:69
+msgid "Marker List"
+msgstr ""
+
+#: vc_elements/ct_googlemap.php:72
+msgid ""
+"[{\"coordinate\":\"41.058846,-73.539423\",\"icon\":\"\",\"title\":\"title "
+"demo 1\",\"desc\":\"desc demo 1\"},{\"coordinate\":\"40.975699,-73.717636\","
+"\"icon\":\"\",\"title\":\"title demo 2\",\"desc\":\"desc demo 2\"},"
+"{\"coordinate\":\"41.082606,-73.469718\",\"icon\":\"\",\"title\":\"title "
+"demo 3\",\"desc\":\"desc demo 3\"}]"
+msgstr ""
+
+#: vc_elements/ct_googlemap.php:76
+msgid "Info Window Max Width"
+msgstr ""
+
+#: vc_elements/ct_googlemap.php:79
+msgid "Set max width for info window"
+msgstr ""
+
+#: vc_elements/ct_googlemap.php:83
+msgid "Map Type"
+msgstr ""
+
+#: vc_elements/ct_googlemap.php:91
+msgid "Select the map type."
+msgstr ""
+
+#: vc_elements/ct_googlemap.php:95
+msgid "Style Template"
+msgstr ""
+
+#: vc_elements/ct_googlemap.php:111
+msgid "Custom Template"
+msgstr ""
+
+#: vc_elements/ct_googlemap.php:114
+msgid "Get template from //snazzymaps.com"
+msgstr ""
+
+#: vc_elements/ct_googlemap.php:124
+msgid "Zoom"
+msgstr ""
+
+#: vc_elements/ct_googlemap.php:127
+msgid "zoom level of map, default is 13"
+msgstr ""
+
+#: vc_elements/ct_googlemap.php:131
+msgid "Width"
+msgstr ""
+
+#: vc_elements/ct_googlemap.php:134
+msgid "Width of map without pixel, default is auto"
+msgstr ""
+
+#: vc_elements/ct_googlemap.php:138
+msgid "Height"
+msgstr ""
+
+#: vc_elements/ct_googlemap.php:141
+msgid "Height of map without pixel, default is 350px"
+msgstr ""
+
+#: vc_elements/ct_googlemap.php:145
+msgid "Scroll Wheel"
+msgstr ""
+
+#: vc_elements/ct_googlemap.php:150
+msgid ""
+"If false, disables scrollwheel zooming on the map. The scrollwheel is "
+"disable by default."
+msgstr ""
+
+#: vc_elements/ct_googlemap.php:154
+msgid "Pan Control"
+msgstr ""
+
+#: vc_elements/ct_googlemap.php:159
+msgid "Show or hide Pan control."
+msgstr ""
+
+#: vc_elements/ct_googlemap.php:163
+msgid "Zoom Control"
+msgstr ""
+
+#: vc_elements/ct_googlemap.php:168
+msgid "Show or hide Zoom Control."
+msgstr ""
+
+#: vc_elements/ct_googlemap.php:172
+msgid "Scale Control"
+msgstr ""
+
+#: vc_elements/ct_googlemap.php:177
+msgid "Show or hide Scale Control."
+msgstr ""
+
+#: vc_elements/ct_googlemap.php:181
+msgid "Map Type Control"
+msgstr ""
+
+#: vc_elements/ct_googlemap.php:186
+msgid "Show or hide Map Type Control."
+msgstr ""
+
+#: vc_elements/ct_googlemap.php:190
+msgid "Street View Control"
+msgstr ""
+
+#: vc_elements/ct_googlemap.php:195
+msgid "Show or hide Street View Control."
+msgstr ""
+
+#: vc_elements/ct_googlemap.php:199
+msgid "Over View Map Control"
+msgstr ""
+
+#: vc_elements/ct_googlemap.php:204
+msgid "Show or hide Over View Map Control."
+msgstr ""
+
+#: vc_elements/ct_heading.php:6
+msgid "Heading Displayed"
+msgstr ""
+
+#: vc_elements/ct_heading.php:11
+msgid "Text Source"
+msgstr ""
+
+#: vc_elements/ct_heading.php:36
+msgid "Element tag"
+msgstr ""
+
+#: vc_elements/ct_heading.php:53
+msgid "Text align large"
+msgstr ""
+
+#: vc_elements/ct_heading.php:65
+msgid "Text align medium"
+msgstr ""
+
+#: vc_elements/ct_heading.php:77
+msgid "Text align small"
+msgstr ""
+
+#: vc_elements/ct_heading.php:89
+msgid "Text align mini"
+msgstr ""
+
+#: vc_elements/ct_heading.php:101
+msgid "Margin top"
+msgstr ""
+
+#: vc_elements/ct_heading.php:109
+msgid "Margin right"
+msgstr ""
+
+#: vc_elements/ct_heading.php:117
+msgid "Margin bottom"
+msgstr ""
+
+#: vc_elements/ct_heading.php:125
+msgid "Margin left"
+msgstr ""
+
+#: vc_elements/ct_heading.php:134
+msgid "Font size large"
+msgstr ""
+
+#: vc_elements/ct_heading.php:143
+msgid "Font size medium"
+msgstr ""
+
+#: vc_elements/ct_heading.php:152
+msgid "Font size small"
+msgstr ""
+
+#: vc_elements/ct_heading.php:161
+msgid "Font size mini"
+msgstr ""
+
+#: vc_elements/ct_heading.php:171
+msgid "Line height large"
+msgstr ""
+
+#: vc_elements/ct_heading.php:180
+msgid "Line height medium"
+msgstr ""
+
+#: vc_elements/ct_heading.php:189
+msgid "Line height small"
+msgstr ""
+
+#: vc_elements/ct_heading.php:198
+msgid "Line height mini"
+msgstr ""
+
+#: vc_elements/ct_heading.php:221
+msgid "Font Weight"
+msgstr ""
+
+#: vc_elements/ct_heading.php:236
+msgid "Font Style"
+msgstr ""
+
+#: vc_elements/ct_heading.php:262
+msgid "Custom Google Fonts"
+msgstr ""
+
+#: vc_elements/ct_heading.php:276
+msgid "Select font family."
+msgstr ""
+
+#: vc_elements/ct_heading.php:277
+msgid "Select font styling."
+msgstr ""
+
+#: vc_elements/ct_heading.php:290
+msgid "Link for title"
+msgstr ""
+
+#: vc_elements/ct_heading.php:298
+msgid "Icon Below"
+msgstr ""
+
+#: vc_elements/ct_heading.php:309
+msgid "Divider"
+msgstr ""
+
+#: vc_elements/ct_list.php:6
+msgid "Lists Displayed"
+msgstr ""
+
+#: vc_elements/ct_list.php:22 vc_elements/ct_list.php:51
+msgid "Lists"
+msgstr ""
+
+#: vc_elements/ct_portfolio_carousel.php:57
+msgid "Leave blank to show all portfolio"
+msgstr ""
+
+#: vc_elements/ct_portfolio_details.php:4
+#: vc_elements/ct_portfolio_details.php:7
+msgid "Portfolio Details"
+msgstr ""
+
+#: vc_elements/ct_portfolio_details.php:13
+msgid "Detail List"
+msgstr ""
+
+#: vc_elements/ct_portfolio_details.php:19
+msgid "Label"
+msgstr ""
+
+#: vc_elements/ct_portfolio_details.php:31
+msgid "Content Type"
+msgstr ""
+
+#: vc_elements/ct_portfolio_grid.php:5
+msgid "Portfolio Grid"
+msgstr ""
+
+#: vc_elements/ct_portfolio_grid.php:8
+msgid "Portfolio Displayed"
+msgstr ""
+
+#: vc_elements/ct_portfolio_grid.php:214
+msgid "Custom Column Item"
+msgstr ""
+
+#: vc_elements/ct_portfolio_grid.php:225
+msgid "List Item"
+msgstr ""
+
+#: vc_elements/ct_portfolio_grid.php:227
+msgid "Column for each item"
+msgstr ""
+
+#: vc_elements/ct_pricing.php:6
+msgid "Pricing Displayed"
+msgstr ""
+
+#: vc_elements/ct_pricing.php:21
+msgid "Price"
+msgstr ""
+
+#: vc_elements/ct_pricing.php:28
+msgid "Time"
+msgstr ""
+
+#: vc_elements/ct_pricing.php:42
+msgid "Item"
+msgstr ""
+
+#: vc_elements/ct_pricing.php:64 widgets/widget-recent-posts.php:151
+msgid "Featured"
+msgstr ""
+
+#: vc_elements/ct_single_image.php:6
+msgid "Single Image"
+msgstr ""
+
+#: vc_elements/ct_single_image.php:31
+msgid ""
+"Enter image size (Example: \"thumbnail\", \"medium\", \"large\", \"full\" "
+"or other sizes defined by theme). Alternatively enter size in pixels "
+"(Example: 200x100 (Width x Height))."
+msgstr ""
+
+#: vc_elements/ct_single_image.php:36
+msgid "Image Block Revealers"
+msgstr ""
+
+#: vc_elements/ct_single_image.php:46
+msgid "Direction"
+msgstr ""
+
+#: vc_elements/ct_single_image.php:64
+msgid "Overlay Color"
+msgstr ""
+
+#: vc_elements/ct_space.php:6
+msgid "Blank space width custom height"
+msgstr ""
+
+#: vc_elements/ct_space.php:12
+msgid "Space Large (Devices > 1200px)"
+msgstr ""
+
+#: vc_elements/ct_space.php:19
+msgid "Space Medium (1199px > Devices > 992px)"
+msgstr ""
+
+#: vc_elements/ct_space.php:26
+msgid "Space Small (991px > Devices > 768px)"
+msgstr ""
+
+#: vc_elements/ct_space.php:33
+msgid "Space Mini (Devices < 767px)"
+msgstr ""
+
+#: vc_elements/ct_team_grid.php:4
+msgid "Team Grid"
+msgstr ""
+
+#: vc_elements/ct_team_grid.php:7
+msgid "Team Displayed"
+msgstr ""
+
+#: vc_elements/ct_team_grid.php:31 vc_elements/ct_testimonial_grid.php:31
+msgid "Enter values for team item"
+msgstr ""
+
+#: vc_elements/ct_team_grid.php:60 vc_elements/ct_testimonial_carousel.php:50
+#: vc_elements/ct_testimonial_carousel.php:105
+#: vc_elements/ct_testimonial_grid.php:49
+msgid "Position"
+msgstr ""
+
+#: vc_elements/ct_team_grid.php:77
+msgid "Enter values for team social"
+msgstr ""
+
+#: vc_elements/ct_testimonial_carousel.php:6
+#: vc_elements/ct_testimonial_grid.php:7
+msgid "Testimonial Displayed"
+msgstr ""
+
+#: vc_elements/ct_testimonial_carousel.php:31
+#: vc_elements/ct_testimonial_carousel.php:87
+msgid "Testimonial Item"
+msgstr ""
+
+#: vc_elements/ct_testimonial_carousel.php:70
+msgid "Carousel Row"
+msgstr ""
+
+#: vc_elements/ct_testimonial_carousel.php:142
+#: vc_elements/ct_testimonial_grid.php:72
+msgid "Position Color"
+msgstr ""
+
+#: vc_elements/ct_testimonial_grid.php:4
+msgid "Testimonial Grid"
+msgstr ""
+
+#: vc_elements/ct_timeline.php:6
+msgid "Timeline Displayed"
+msgstr ""
+
+#: vc_elements/ct_timeline.php:12
+msgid "Timeline"
+msgstr ""
+
+#: vc_templates/ct_blog_grid.php:168
+msgid "More News"
+msgstr ""
+
+#: vc_templates/ct_countdown.php:12
+msgid "Month"
+msgstr ""
+
+#: vc_templates/ct_countdown.php:13
+msgid "Months"
+msgstr ""
+
+#: vc_templates/ct_countdown.php:14
+msgid "Day"
+msgstr ""
+
+#: vc_templates/ct_countdown.php:15
+msgid "Days"
+msgstr ""
+
+#: vc_templates/ct_countdown.php:16
+msgid "Hour"
+msgstr ""
+
+#: vc_templates/ct_countdown.php:17
+msgid "Hours"
+msgstr ""
+
+#: vc_templates/ct_countdown.php:18
+msgid "Minute"
+msgstr ""
+
+#: vc_templates/ct_countdown.php:19
+msgid "Minutes"
+msgstr ""
+
+#: vc_templates/ct_countdown.php:20
+msgid "Second"
+msgstr ""
+
+#: vc_templates/ct_countdown.php:21
+msgid "Seconds"
+msgstr ""
+
+#: vc_templates/ct_portfolio_details.php:34
+msgid "Share Now"
+msgstr ""
+
+#: vc_templates/ct_portfolio_grid--layout2.php:149
+#: vc_templates/ct_portfolio_grid.php:156
+msgid "Load more"
+msgstr ""
+
+#: widgets/class.widget-extends.php:63
+msgid "Use Theme Style"
+msgstr ""
+
+#: widgets/class.widget-extends.php:71
+msgid "CSS Class"
+msgstr ""
+
+#: widgets/class.widget-extends.php:82
+msgid "Hide widget title"
+msgstr ""
+
+#: widgets/widget-recent-posts.php:15
+msgid "* Recent Posts"
+msgstr ""
+
+#: widgets/widget-recent-posts.php:17
+msgid "Shows your most recent posts."
+msgstr ""
+
+#: widgets/widget-recent-posts.php:33 widgets/widget-recent-posts.php:39
+#: widgets/widget-recent-posts.php:133 widgets/widget-recent-posts.php:137
+msgid "Recent Posts"
+msgstr ""
+
+#: widgets/widget-recent-posts.php:144 widgets/widget-social.php:179
+msgid "Title:"
+msgstr ""
+
+#: widgets/widget-recent-posts.php:148
+msgid "Post in"
+msgstr ""
+
+#: widgets/widget-recent-posts.php:150
+msgid "Recent"
+msgstr ""
+
+#: widgets/widget-recent-posts.php:155
+msgid "Featured Image"
+msgstr ""
+
+#: widgets/widget-recent-posts.php:163
+msgid "Number of posts to show:"
+msgstr ""
+
+#: widgets/widget-social.php:7
+msgid "* Social"
+msgstr ""
+
+#: widgets/widget-social.php:8
+msgid "Social Widget"
+msgstr ""
+
+#: widgets/widget-social.php:76
+msgid "YouTube"
+msgstr ""
+
+#: widgets/widget-social.php:84
+msgid "Google+"
+msgstr ""
+
+#: widgets/widget-social.php:92
+msgid "Dribbble"
+msgstr ""
+
+#: widgets/widget-social.php:96
+msgid "Flickr"
+msgstr ""
+
+#: widgets/widget-social.php:182
+msgid "Link Facebook:"
+msgstr ""
+
+#: widgets/widget-social.php:185
+msgid "Link Rss:"
+msgstr ""
+
+#: widgets/widget-social.php:188
+msgid "Link Youtube:"
+msgstr ""
+
+#: widgets/widget-social.php:191
+msgid "Link Twitter:"
+msgstr ""
+
+#: widgets/widget-social.php:194
+msgid "Link Google:"
+msgstr ""
+
+#: widgets/widget-social.php:197
+msgid "Link Skype:"
+msgstr ""
+
+#: widgets/widget-social.php:200
+msgid "Link Dribbble:"
+msgstr ""
+
+#: widgets/widget-social.php:203
+msgid "Link Flickr:"
+msgstr ""
+
+#: widgets/widget-social.php:206
+msgid "Link Linkedin:"
+msgstr ""
+
+#: widgets/widget-social.php:209
+msgid "Link Vimeo:"
+msgstr ""
+
+#: widgets/widget-social.php:212
+msgid "Link Pinterest:"
+msgstr ""
+
+#: widgets/widget-social.php:215
+msgid "Link Instagram:"
+msgstr ""
+
+#: woocommerce/wc-function-hooks.php:47
+msgid "Out Of Stock"
+msgstr ""
+
+#: woocommerce/wc-function-hooks.php:71
+msgid "Product Specification"
+msgstr ""
+
+#: woocommerce/wc-function-hooks.php:184
+msgid "Share Now:"
+msgstr ""
+
+#: woocommerce/wc-function-hooks.php:207
+msgid "No"
+msgstr ""
+
+#: woocommerce/wc-function-hooks.php:263
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce/wc-function-hooks.php:278
+msgid "No products in the cart."
+msgstr ""
+
+#: woocommerce/wc-function-hooks.php:286
+msgid "Subtotal"
+msgstr ""
+
+#: woocommerce/wc-function-hooks.php:291
+msgid "View Cart"
+msgstr ""
+
+#: woocommerce/wc-function-hooks.php:292
+msgid "Checkout"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Zinco"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "//demo.casethemes.net/zinco/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Zinco come with a best WordPress theme for SEO company. All the latest "
+"features are using here which help you to make unique website from others. "
+"It also helps you to attract your target clients. Zinco is retina ready & "
+"fully responsive and through this features you can display your site with a "
+"high resolution at any device like notebook, iPhone laptop etc."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "CaseThemes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "//themeforest.net/user/case-themes/portfolio/"
+msgstr ""

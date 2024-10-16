@@ -1,0 +1,341 @@
+html {
+    box-sizing: border-box;
+}
+a {
+  @include transition(all 300ms linear 0ms);
+  color: #ff7200;
+}
+a, a:hover, a:focus, a:before, a:after {
+  outline: none;
+  text-decoration: none;
+}
+a:hover, a:focus {
+  color: $link_color_active;
+}
+
+p {
+  margin-bottom: 15px;
+}
+body {
+  background-color: #fff;
+  font-size: 16px;
+  line-height: 1.875;
+  color: #5f5f5f;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  font-weight: normal;
+  letter-spacing: 0;
+  &.single-portfolio .wpb_text_column {
+    font-size: 15px;
+    line-height: 2.13;
+  }
+  &.body-default-font {
+    @include font-family-default($body_default_font);
+  }
+  &.ovhidden {
+    overflow: hidden;
+  }
+}
+.site {
+  position: relative;
+}
+.fac-normal {
+  font-weight: 400;
+}
+
+// Headings
+//--------------------------------------------------
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  color: #42495b;
+  clear: both;
+  line-height: 1.25;
+  margin: 0 0 15px;
+}
+.heading-default-font {
+  h1, h2, h3, h4, h5, h6,
+  .h1, .h2, .h3, .h4, .h5, .h6 {
+    @include font-family-heading($heading_default_font);
+    letter-spacing: -0.03em;
+  }
+  h3.ct-heading-tag {
+    @media #{$min-lg} {
+      line-height: 1;
+    }
+  }
+  .error-404-content h2 {
+    line-height: 1;
+  }
+}
+h1, .h1 {
+  font-size: 48px;
+}
+
+h2, .h2 {
+  font-size: 36px;
+}
+
+h3, .h3 {
+  font-size: 22px;
+}
+
+h4, .h4 {
+  font-size: 20px;
+}
+
+h5, .h5 {
+  font-size: 18px;
+}
+
+h6, .h6 {
+  font-size: 16px;
+}
+
+img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+label {
+  margin-bottom: 0;
+}
+
+// Unit Test
+//--------------------------------------------------
+table {
+  border-bottom: 1px solid #e1ebff;
+  border-left: 1px solid #e1ebff;
+  border-collapse: collapse;
+  border-spacing: 0;
+  line-height: 2;
+  margin: 0 0 32px;
+  width: 100%;
+  @include border-radius(0);
+  th {
+    color: $color_dark;
+  }
+}
+caption, td {
+  font-weight: normal;
+  text-align: left;
+}
+.table > tbody > tr > td, 
+.table > tbody > tr > th, 
+.table > tfoot > tr > td, 
+.table > tfoot > tr > th, 
+.table > thead > tr > td, 
+.table > thead > tr > th {
+  padding: 13px 8px;
+}
+th {
+  font-weight: 600;
+  border-top: 1px solid #e1ebff;
+  padding: 9px 13px;
+  border-right: 1px solid #e1ebff;
+}
+td {
+  border-top: 1px solid #e1ebff;
+  padding: 9px 13px;
+  border-right: 1px solid #e1ebff;
+}
+/*--- Definition Lists ---*/
+dl {
+    margin: 0 0 0 25px;
+}
+dl dt {
+    font-weight: normal;
+    line-height: 26px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #000;
+}
+dl dd {
+    line-height: normal;
+    margin-bottom: 20px;
+    a {
+      color: #000;
+      &:hover {
+        color: $primary_color;
+      }
+    }
+}
+code, kbd {
+    background-color: transparent;
+    border-radius: 4px;
+    color: inherit;
+    font-size: 100%;
+    padding: 2px 4px;
+    -webkit-box-shadow: none;
+       -moz-box-shadow: none;
+         -o-box-shadow: none;
+            box-shadow: none;
+}
+ins {
+    color: #fff;
+    border: none;
+    padding: 2px;
+    text-decoration: none;
+    background-color: $primary_color;
+}
+pre {
+    background: #f5f5f5;
+    color: #666;
+    font-size: 14px;
+    margin: 20px 0;
+    overflow: auto;
+    padding: 20px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+ol {
+  list-style: outside none decimal;
+}
+ul {
+  padding: 0;
+  margin: 0 0 15px;
+  li {
+    list-style-position: inside;
+  }
+}
+blockquote {
+  overflow: hidden;
+  background-color: $primary_color;
+  font-size: 30px;
+  line-height: 1.23333;
+  position: relative;
+  z-index: 1;
+  padding: 50px 40px;
+  clear: both;
+  margin: 55px 0 48px 0;
+  color: #fff;
+  @include font-family-heading($heading_default_font);
+  @media #{$max-sm} {
+    padding: 40px 30px;
+    font-size: 18px;
+  }
+  p {
+    margin-bottom: 0 !important;
+  }
+  cite {
+    font-style: normal;
+    display: block;
+    color: #ffffff;
+    font-size: 16px;
+    margin-top: 18px;
+    position: relative;
+    padding-left: 50px;
+    &:before {
+      content: '';
+      width: 30px;
+      height: 2px;
+      background-color: #fff;
+      position: absolute;
+      top: 50%;
+      @include transform(translate(0%, -50%));
+      left: 0;
+    }
+  }
+  a {
+    color: #fff;
+    &:hover {
+      color: inherit;
+    }
+  }
+  &:before {
+    content: '\f10d';
+    font-family: "FontAwesome";
+    color: rgba(#fff, 0.1);
+    font-size: 150px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    font-style: normal;
+    z-index: -1;
+    @include transform(translate(-50%, -50%));
+  }
+}
+.dlab-divider {
+  height: 1px;
+  width: 100%;
+  margin: 30px 0;
+  background-color: #d3d3d3;
+}
+
+dl + h2 + ul {
+  padding-left: 35px;
+  ul {
+    padding-left: 35px;
+    li {
+      list-style: outside;
+    }
+  }
+}
+.post-password-form {
+  label {
+    display: block;
+    max-width: 60%;
+  }
+  input {
+    margin: 10px 0;
+  }
+}
+@media #{$max-sm} {
+  .post-password-form label {
+    max-width: 60%;
+  }
+}
+#tslOverlay {
+  background-color: transparent !important;
+}
+@font-face {
+  font-family: 'Gilroy Light';
+  src: url('../fonts/main/gilroy-light-webfont.woff2') format('woff2'),
+       url('../fonts/main/gilroy-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gilroy Bold';
+  src: url('../fonts/main/gilroy-bold-webfont.woff2') format('woff2'),
+       url('../fonts/main/gilroy-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+.ft-gilroy-l {
+  font-family: 'Gilroy Light';
+}
+.ft-gilroy {
+  font-family: 'Gilroy Bold';
+}
+.wp-image-space {
+  margin-bottom: 23px;
+  padding-top: 53px;
+}
+.fac.icon-fal {
+  font-weight: 300;
+}
+.fac.icon-far {
+  font-weight: 400;
+}
+.fac.icon-fab {
+  font-family: "Font Awesome 5 Brands";
+}
+
+.wp-block-button {
+  margin-bottom: 20px;
+}
+.wp-block-gallery .blocks-gallery-item {
+  float: left;
+}
+.entry-body .entry-content .wp-block-cover-text {
+  color: rgba(255,255,255,0.87);
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 24px;
+  line-height: 1.25;
+  font-weight: 400;
+}

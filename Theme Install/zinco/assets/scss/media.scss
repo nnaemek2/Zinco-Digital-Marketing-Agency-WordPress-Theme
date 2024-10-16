@@ -1,0 +1,73 @@
+.page-content .wp-smiley,
+.entry-content .wp-smiley,
+.comment-content .wp-smiley {
+    border: none;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 0;
+}
+
+embed,
+iframe,
+object {
+    max-width: 100%;
+}
+
+.custom-logo-link {
+    display: inline-block;
+}
+
+// Captions
+//--------------------------------------------------
+
+.wp-caption {
+    margin-bottom: 1.5em;
+    max-width: 100%;
+
+    img[class*="wp-image-"] {
+        @include center-block;
+    }
+
+    .wp-caption-text {
+        padding: 0.8075em 0;
+        font-size: 0.875em;
+        font-style: italic;
+    }
+}
+
+.wp-caption-text {
+    text-align: center;
+}
+
+// Gallery
+//--------------------------------------------------
+
+.gallery {
+    margin-bottom: 1.5em;
+}
+
+.gallery-item {
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    width: 100%;
+}
+
+.gallery-caption {
+    display: block;
+}
+
+.wp-video {
+    .mejs-container {
+        min-width: inherit !important;
+    }
+    .mejs-controls {
+        &.mejs-offscreen {
+            opacity: 1 !important;
+            display: block !important;
+        }
+        .mejs-time-rail .mejs-time-current {
+            background-color: $primary_color;
+        }
+    }
+}
